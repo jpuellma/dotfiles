@@ -63,5 +63,5 @@ map <C-\> :NERDTreeToggle<CR>
 
 
 execute "set colorcolumn=" . join(range(81,335), ',')
-highlight ColorColumn ctermbg=0 guibg=Black
+highlight ColorColumn ctermbg=0
 highlight ColorColumn guibg=Black
