@@ -1,1 +1,0 @@
-/home/jpuellmann/Dropbox/blacktop/home/jpuellmann/.bashrc.d
