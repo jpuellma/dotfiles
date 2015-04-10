@@ -1,1 +1,16 @@
-/home/jpuellmann/Dropbox/blacktop/home/jpuellmann/.gitconfig
+[user]
+	name = James Puellmann
+	email = james.puellmann@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = meld
+[color]
+	interactive = auto
+	diff = auto
+	status = auto
+	branch = auto
+[gui]
+	recentrepo = /home/jpuellmann/git/spacewalk-util
+	fontui = -family Helvetica-Normal -size -12 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family Consolas -size -12 -weight normal -slant roman -underline 0 -overstrike 0
