@@ -18,8 +18,8 @@ sudo ${HOME}/bin/nocapslock
 for i in $( /bin/run-parts --list ~/.bashrc.d ); do
     . $i
 done
-setpath
-setalias
-set_dir_colors
+_setpath
+_setalias
+_set_dir_colors
 
-pathmunge ${GOPATH}:${GOPATH}/bin after
+_pathmunge ${GOPATH}:${GOPATH}/bin after

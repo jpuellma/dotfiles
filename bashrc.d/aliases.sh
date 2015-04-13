@@ -26,3 +26,5 @@ alias t='terminator &'
 alias a='atom -n ~/svn/systems/trunk/puppet/environments'
 alias b=brightness
 alias t='tmux a || tmux'
+alias sup='_sup'
+alias svnfind='_svnfind'

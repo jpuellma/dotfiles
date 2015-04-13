@@ -1,5 +1,5 @@
-function setpath() {
-    function pathmunge() {
+function _setpath() {
+    function _pathmunge() {
         case ":${PATH}:" in
             *:"$1":*)
                 ;;
@@ -14,22 +14,22 @@ function setpath() {
 
     case $PROFILE_TYPE in
     "blacktop")
-        pathmunge $HOME/bin after
-        pathmunge /sbin after
-        pathmunge /usr/sbin after
+        _pathmunge $HOME/bin after
+        _pathmunge /sbin after
+        _pathmunge /usr/sbin after
         ;;
     "mbp")
-        pathmunge $HOME/bin after
+        _pathmunge $HOME/bin after
         ;;
     "ldap_home")
-        pathmunge $HOME/bin after
+        _pathmunge $HOME/bin after
         ;;
     "production_host")
         ;;
     esac
-}
+} # end function _setpath()
 
-function setalias() {
+function _setalias() {
     case $PROFILE_TYPE in
     "blacktop")
         alias ls='/bin/ls --color=always'
@@ -70,23 +70,23 @@ function setalias() {
     *)
         ;;
     esac
-}
+} # end function _setalias()
 
-function settitle() {
+function _settitle() {
     echo -ne "\033]0;$* \007"
 }
 
-function svnfind() {
+function _svnfind() {
     find $* | grep -v "\.svn"
 }
 
-function sup() {
+function _sup() {
     for i in ~/svn/* ; do
         svn up $i
     done
 }
 
-function set_dir_colors() {
+function _set_dir_colors() {
     if [[ -f ~/.dircolors ]]; then
 	eval $(dircolors ~/.dircolors)
     fi

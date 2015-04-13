@@ -19,10 +19,11 @@ Bundle 'vim-scripts/ZoomWin'
 Bundle 'vim-scripts/Syntastic'
 Bundle 'vim-scripts/matchit.zip'
 Bundle 'vim-scripts/tComment'
-Bundle 'tristen/vim-sparkup'
+" Bundle 'tristen/vim-sparkup'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
+Bundle 'tpope/vim-fugitive'
 call vundle#end()
 
 set nocompatible

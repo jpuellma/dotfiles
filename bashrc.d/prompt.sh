@@ -25,7 +25,7 @@
 # tput sgr0 = reset all
 #
 
-function countslashes() {
+function _countslashes() {
     slashes=${*//[^\/]/} && echo ${#slashes}
 }
 
@@ -56,14 +56,20 @@ tput_fg_white="\[$(tput setaf 7)\]"
 
 ps1_hostname="$([[ -e /bin/hostname ]] && hostname || echo $HOSTNAME.$([[ -e /bin/dnsdomainname ]] && /bin/dnsdomainname))"
 
-if [[ -f ~/.powerline.sh ]]; then
-    source ~/.powerline.sh
+function _update_ps1() {
+    # export PS1="$(~/.powerline-shell.py $? 2> /dev/null)"
+    export PS1="$(~/.powerline-shell.py --cwd-max-depth 1 --mode flat)"
+}
+
+
+if [[ -f ~/.powerline-shell.py ]]; then
+    export PROMPT_COMMAND='_update_ps1'
 else
     # Setup your normal PS1 here.
     export PROMPT_COMMAND=\
     '\
     SHORT_PWD=${PWD/#$HOME/\~}; \
-    s=$(countslashes $SHORT_PWD); \
+    s=$(_countslashes $SHORT_PWD); \
     if [[ $PWD == $HOME ]]; then \
         PS1_PWD="~"; \
     elif [[ $s -lt 3 ]]; then \
