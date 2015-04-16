@@ -41,3 +41,4 @@ alias b=brightness
 alias t='tmux a || tmux'
 alias sup='_sup'
 alias svnfind='_svnfind'
+alias svn='GTK_THEME=Greybird svn'
