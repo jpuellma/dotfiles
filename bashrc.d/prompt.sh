@@ -64,20 +64,20 @@ function _update_ps1() {
 
 if [[ -f ~/.powerline-shell.py ]]; then
     export PROMPT_COMMAND='_update_ps1'
-else
-    # Setup your normal PS1 here.
-    export PROMPT_COMMAND=\
-    '\
-    SHORT_PWD=${PWD/#$HOME/\~}; \
-    s=$(_countslashes $SHORT_PWD); \
-    if [[ $PWD == $HOME ]]; then \
-        PS1_PWD="~"; \
-    elif [[ $s -lt 3 ]]; then \
-        PS1_PWD=${PWD/#$HOME/\~}; \
-    else \
-        PS1_PWD=$(pwd|awk -F / '\''{printf "../%s/%s\n", $(NF-1), $NF}'\''); \
-    fi; \
-    PS1="${tput_set_bold}${tput_fg_yellow}[\D{%T %Z}]${tput_fg_white}${PS1_PWD} ${tput_fg_cyan}\$ ${tput_reset}" \
-    '
+# else
+#     # Setup your normal PS1 here.
+#     export PROMPT_COMMAND=\
+#     '\
+#     SHORT_PWD=${PWD/#$HOME/\~}; \
+#     s=$(_countslashes $SHORT_PWD); \
+#     if [[ $PWD == $HOME ]]; then \
+#         PS1_PWD="~"; \
+#     elif [[ $s -lt 3 ]]; then \
+#         PS1_PWD=${PWD/#$HOME/\~}; \
+#     else \
+#         PS1_PWD=$(pwd|awk -F / '\''{printf "../%s/%s\n", $(NF-1), $NF}'\''); \
+#     fi; \
+#     PS1="${tput_set_bold}${tput_fg_yellow}[\D{%T %Z}]${tput_fg_white}${PS1_PWD} ${tput_fg_cyan}\$ ${tput_reset}" \
+#     '
 fi
 

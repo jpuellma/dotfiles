@@ -1,3 +1,16 @@
+uname_a=$(uname -a)
+
+# Environment-specific:
+case $(uname -a) in
+    Darwin*)
+        alias ls='ls -G'
+        alias ll='ls -l'
+        ;;
+    * )
+        ;;
+esac
+
+# Universal
 alias diff='diff -u'
 alias install='sudo yum install'
 alias whatprovides='sudo yum whatprovides'

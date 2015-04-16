@@ -87,7 +87,7 @@ function _sup() {
 }
 
 function _set_dir_colors() {
-    if [[ -f ~/.dircolors ]]; then
+    if [[ -f ~/.dircolors && -x /usr/bin/dircolors ]]; then
 	eval $(dircolors ~/.dircolors)
     fi
 }

@@ -13,9 +13,11 @@ export SSLKEYLOGFILE="/home/jpuellmann/.sslkeylogfile"
 export PROFILE_TYPE='blacktop'
 unset GNOME_KEYRING_CONTROL
 
-sudo ${HOME}/bin/nocapslock
+if [ -x ~/bin/nocapslock ]; then
+    sudo ${HOME}/bin/nocapslock
+fi
 
-for i in $( /bin/run-parts --list ~/.bashrc.d ); do
+for i in ~/.bashrc.d/*.sh ; do
     . $i
 done
 _setpath
