@@ -29,49 +29,6 @@ function _setpath() {
     esac
 } # end function _setpath()
 
-function _setalias() {
-    case $PROFILE_TYPE in
-    "blacktop")
-        alias ls='/bin/ls --color=always'
-        alias ll='ls -l'
-        alias grep='/bin/grep --color=always'
-        alias gerp='grep'
-        alias less='less -RFX'
-        alias cdsvn='cd ~/svn'
-        ;;
-     "mbp")
-        alias ls='/bin/ls'
-        alias ll='ls -l'
-        alias grep='/usr/bin/grep --color=always'
-        alias gerp='grep'
-        alias updatedb='/usr/libexec/locate.updatedb'
-        alias less='less -RFX'
-        alias cdsvn='cd ~/svn'
-        ;;
-    "ldap_home")
-        alias ls='/bin/ls'
-        alias ll='ls -l'
-        alias grep='/bin/grep --color=always'
-        alias gerp='grep'
-        alias updatedb='/usr/libexec/locate.updatedb'
-        alias less='less -R'
-        alias cdsvn='cd ~/svn'
-         ;;
-    "production_host")
-        alias ls='/bin/ls'
-        alias ll='ls -l'
-        alias grep='/bin/grep --color=always'
-        alias gerp='grep'
-        alias updatedb='/usr/libexec/locate.updatedb'
-        alias less='less -R'
-        alias cdsvn='cd ~/svn'
-        alias vim='vim -i /tmp/.jmp_viminfo -S /tmp/.jmp_vimrc'
-         ;;
-    *)
-        ;;
-    esac
-} # end function _setalias()
-
 function _settitle() {
     echo -ne "\033]0;$* \007"
 }

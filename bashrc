@@ -18,10 +18,9 @@ if [ -x ~/bin/nocapslock ]; then
 fi
 
 for i in ~/.bashrc.d/*.sh ; do
-    . $i
+    source $i
 done
 _setpath
-_setalias
 _set_dir_colors
 
 _pathmunge ${GOPATH}:${GOPATH}/bin after

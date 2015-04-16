@@ -5,12 +5,24 @@ case $(uname -a) in
     Darwin*)
         alias ls='ls -G'
         alias ll='ls -l'
+        alias grep='/usr/bin/grep --color=always'
+        alias updatedb='/usr/libexec/locate.updatedb'
+        alias less='less -RFX'
+        alias cdsvn='cd ~/svn'
+        ;;
+    *Linux*)
+        alias ls='/bin/ls --color=always'
+        alias ll='ls -l'
+        alias grep='/bin/grep --color=always'
+        alias less='less -RFX'
+        alias cdsvn='cd ~/svn'
         ;;
     * )
         ;;
 esac
 
 # Universal
+alias gerp='grep'
 alias diff='diff -u'
 alias install='sudo yum install'
 alias whatprovides='sudo yum whatprovides'
