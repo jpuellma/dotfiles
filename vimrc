@@ -27,7 +27,7 @@ Bundle 'tpope/vim-fugitive'
 call vundle#end()
 
 set nocompatible
-filetype plugin indent on
+" filetype plugin indent on
 syntax on
 set nohlsearch
 set expandtab
@@ -40,11 +40,13 @@ set guifont=Inconsolata\ Medium\ 8
 "set guifont=Monospace\ 8
 set showmode
 "set showtabline=2
-set wrap
+" set wrap
 set number
 set t_Co=256
 set colorcolumn=+1 " red line and over is error
 set textwidth=80
+set fo-=t
+set mouse=a
 
 "colorscheme jpuellma
 "colorscheme solarized
@@ -66,3 +68,11 @@ map <C-\> :NERDTreeToggle<CR>
 execute "set colorcolumn=" . join(range(81,335), ',')
 highlight ColorColumn ctermbg=0
 highlight ColorColumn guibg=Black
+
+" General option
+" ===============
+let mapleader = "," " rebind <Leader> key
+nnoremap . <NOP>
+set wildmode=list:longest " make TAB behave like in a shell
+set autoread " reload file when changes happen in other editors
+vnoremap <Leader>s :sort<CR>

@@ -16,6 +16,7 @@ case $(uname -a) in
         alias grep='/bin/grep --color=always'
         alias less='less -RFX'
         alias cdsvn='cd ~/svn'
+        alias tree='tree -c'
         ;;
     * )
         ;;
@@ -27,6 +28,7 @@ alias diff='diff -u'
 alias install='sudo yum install'
 alias whatprovides='sudo yum whatprovides'
 alias puppet-lint='puppet-lint --no-autoloader_layout-check --no-hard_tabs-check --no-trailing_whitespace-check --no-2sp_soft_tabs-check --no-single_quote_string_with_variables-check'
+alias vi='vim'
 alias gvim='gvim -p'
 alias cdpe='cd ~/svn/systems/trunk/puppet/environments/'
 alias cdpl='cd ~/svn/systems/trunk/puppet/environments/lab/'
