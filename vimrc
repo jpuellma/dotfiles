@@ -44,9 +44,9 @@ set showmode
 set number
 set t_Co=256
 set colorcolumn=+1 " red line and over is error
-set textwidth=80
+set textwidth=0
 set fo-=t
-set mouse=a
+"set mouse=a
 
 "colorscheme jpuellma
 "colorscheme solarized
