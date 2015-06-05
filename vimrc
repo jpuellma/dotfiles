@@ -24,6 +24,7 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
+Bundle 'terryma/vim-expand-region'
 call vundle#end()
 
 set nocompatible
