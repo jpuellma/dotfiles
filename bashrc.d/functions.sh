@@ -50,6 +50,6 @@ function _set_dir_colors() {
 }
 
 function _lrtail() {
-    /usr/bin/ls -lrt $* | tail
-}; alias lrtail='_lrtail'
+    /usr/bin/ls -lrt --color=always $* | tail
+}; alias lrtail='_lrtail' ; alias lrt='_lrtail'
 
