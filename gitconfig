@@ -13,3 +13,8 @@
 [gui]
 	fontui = -family Helvetica-Normal -size -12 -weight normal -slant roman -underline 0 -overstrike 0
 	fontdiff = -family Consolas -size -12 -weight normal -slant roman -underline 0 -overstrike 0
+	recentrepo = /home/jpuellmann/bin
+	recentrepo = /home/jpuellmann/git/github/dotfiles
+	recentrepo = /home/jpuellmann/git/github/jpuellma/dotfiles
+	recentrepo = /home/jpuellmann/p3
+	recentrepo = /home/jpuellmann/.crypt
