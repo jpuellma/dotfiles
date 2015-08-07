@@ -24,3 +24,5 @@ _setpath
 _set_dir_colors
 
 _pathmunge ${GOPATH}:${GOPATH}/bin after
+
+/usr/bin/xrdb -merge ~/.Xresources

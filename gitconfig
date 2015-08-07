@@ -12,9 +12,11 @@
 	branch = auto
 [gui]
 	fontui = -family Helvetica-Normal -size -12 -weight normal -slant roman -underline 0 -overstrike 0
-	fontdiff = -family Consolas -size -12 -weight normal -slant roman -underline 0 -overstrike 0
+	fontdiff = -family \"DejaVu Sans Mono\" -size 10 -weight normal -slant roman -underline 0 -overstrike 0
 	recentrepo = /home/jpuellmann/bin
 	recentrepo = /home/jpuellmann/git/github/dotfiles
 	recentrepo = /home/jpuellmann/git/github/jpuellma/dotfiles
-	recentrepo = /home/jpuellmann/p3
 	recentrepo = /home/jpuellmann/.crypt
+	recentrepo = /home/jpuellmann/p3
+	tabsize = 4
+	recentrepo = /home/jpuellmann/vagrants/nyt-vagrant-sandbox
