@@ -61,16 +61,16 @@ fillSpec = orig mid mid #FFFFFF
 background = #181818
 
 [xinerama]
-showAll = true
+showAll = false
 
 [normal]
 tint = black
 tintOpacity = 0
-opacity = 255
+opacity = 190
 
 [highlight]
-tint = #101020
-tintOpacity = 64
+tint = #ffffff
+tintOpacity = 0
 opacity = 255
 
 [tooltip]
