@@ -17,6 +17,12 @@
 	recentrepo = /home/jpuellmann/git/github/dotfiles
 	recentrepo = /home/jpuellmann/git/github/jpuellma/dotfiles
 	recentrepo = /home/jpuellmann/.crypt
-	recentrepo = /home/jpuellmann/p3
 	tabsize = 4
 	recentrepo = /home/jpuellmann/vagrants/nyt-vagrant-sandbox
+	recentrepo = /home/jpuellmann/p3
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	a = add

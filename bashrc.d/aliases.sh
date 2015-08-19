@@ -53,8 +53,8 @@ alias t='tmux a || tmux'
 alias sup='_sup'
 alias svnfind='_svnfind'
 #alias svn='GTK_THEME=Greybird svn'
-alias gpush='git push origin master'
-alias gpull='git pull origin master'
+alias gst='git status'
+alias g=git
 
 alias cr='cmus-remote'
 alias crplay='cmus-remote --play' crp='crplay'
@@ -67,4 +67,6 @@ alias crvolume='cmus-remote --volume' crv='crvolume'
 
 alias vup='vagrant up'
 alias vsh='vagrant ssh'
+alias vst='vagrant status'
 alias vstat='vagrant status'
+
