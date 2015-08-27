@@ -26,3 +26,5 @@
 	ci = commit
 	st = status
 	a = add
+[push]
+	default = simple
