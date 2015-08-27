@@ -26,5 +26,5 @@ _set_dir_colors
 _pathmunge ${GOPATH}:${GOPATH}/bin after
 
 if ! [[ -z $DISPLAY ]]; then
-    /usr/bin/xrdb -merge ~/.Xresources
+    xrdb -merge ~/.Xresources
 fi
