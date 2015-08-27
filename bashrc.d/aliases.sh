@@ -65,6 +65,7 @@ alias crnext='cmus-remote --next' crn='crnext'
 alias crstop='cmus-remote --stop' crs='crstop'
 alias crvolume='cmus-remote --volume' crv='crvolume'
 
+alias v=vagrant
 alias vup='vagrant up'
 alias vsh='vagrant ssh'
 alias vst='vagrant status'
