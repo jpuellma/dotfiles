@@ -71,3 +71,4 @@ alias vsh='vagrant ssh'
 alias vst='vagrant status'
 alias vstat='vagrant status'
 
+alias mbp='gnome-terminal --profile mbp'
