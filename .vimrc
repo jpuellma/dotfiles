@@ -76,3 +76,5 @@ let mapleader = "," " rebind <Leader> key
 set wildmode=list:longest " make TAB behave like in a shell
 set autoread " reload file when changes happen in other editors
 vnoremap <Leader>s :sort<CR>
+
+let @r = '%s/\(.*\)	 \+MD5:.*\nSHA-256: \(.*\)/\2  \1'
