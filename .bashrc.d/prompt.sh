@@ -81,3 +81,12 @@ if [[ -f ~/.powerline-shell.py ]]; then
 #     '
 fi
 
+case $HOSTNAME in 
+    'optiplex790')
+        export PS1="${tput_fg_yellow}\[\][\u@\h \W]\$ \[\] ${tput_reset}"
+        ;;
+    *)
+        export PS1="\[\][\u@\h \W]\$ \[\] "
+        ;;
+esac
+
