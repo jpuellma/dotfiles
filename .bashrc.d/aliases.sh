@@ -73,9 +73,6 @@ alias vst='vagrant status'
 alias vstat='vagrant status'
 
 alias mbp='gnome-terminal --profile mbp'
-shrug="¯\\_(ツ)_/¯"
-brofist="👊"
-thumbsup="👍"
 alias shrug='echo ${shrug}'
 alias brofist='echo ${brofist}'
 alias thumbsup='echo ${thumbsup}'
