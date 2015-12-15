@@ -53,3 +53,7 @@ function _lrtail() {
     /usr/bin/ls -lrt --color=always $* | tail
 }; alias lrtail='_lrtail' ; alias lrt='_lrtail'
 
+
+function pwgrep() {
+    gpg -d ~/.crypt/passwords.gpg | grep $*
+}
