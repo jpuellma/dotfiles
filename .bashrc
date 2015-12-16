@@ -26,7 +26,7 @@ _set_dir_colors
 _pathmunge ${GOPATH}:${GOPATH}/bin after
 _pathmunge ${HOME}/.local/lib/aws/bin after
 
-complete -C .local/lib/aws/bin/aws_completer aws
+complete -C ${HOME}/.local/lib/aws/bin/aws_completer aws
 
 # For EC2 CLI:
 # Update: Not needed because ec2 tools are deprecated by aws tool.
