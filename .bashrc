@@ -27,9 +27,10 @@ _pathmunge ${GOPATH}:${GOPATH}/bin after
 _pathmunge ${HOME}/.local/lib/aws/bin after
 
 # For EC2 CLI:
-export JAVA_HOME=/etc/alternatives/jre
-export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
-_pathmunge ${EC2_HOME}/bin after
+# Update: Not needed because ec2 tools are deprecated by aws tool.
+# export JAVA_HOME=/etc/alternatives/jre
+# export EC2_HOME=/usr/local/ec2/ec2-api-tools-1.7.5.1
+# _pathmunge ${EC2_HOME}/bin after
 
 if ! [[ -z $DISPLAY ]]; then
     xrdb -merge ~/.Xresources
