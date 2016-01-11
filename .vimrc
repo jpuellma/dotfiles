@@ -33,7 +33,7 @@ syntax on
 set nohlsearch
 set expandtab
 set tabstop=8
-set shiftwidth=4
+set shiftwidth=2
 set smarttab
 set smartindent
 set modelines=10

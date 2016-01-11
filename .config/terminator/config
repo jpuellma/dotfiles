@@ -1,13 +1,16 @@
 [global_config]
   borderless = True
-  custom_url_handler = chrome
+  broadcast_default = off
+  custom_url_handler = vivaldi-snapshot
   dbus = True
-  enabled_plugins = InactivityWatch, CustomCommandsMenu, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, Logger
+  enabled_plugins = CustomCommandsMenu, InactivityWatch, ActivityWatch, TerminalShot, LaunchpadCodeURLHandler, APTURLHandler, Logger
   focus = mouse
+  geometry_hinting = False
   handle_size = 3
+  homogeneous_tabbar = False
   inactive_color_offset = 0.89
+  scroll_tabbar = True
   suppress_multiple_term_dialog = True
-  title_hide_sizetext = True
   title_inactive_bg_color = "#565656"
   title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#579baf"
@@ -33,59 +36,12 @@
   zoom_out = <Super>minus
 [layouts]
   [[default]]
-    [[[child0]]]
-      order = 0
-      parent = ""
-      position = 960:29
-      size = 960, 1171
-      type = Window
-    [[[terminal1]]]
-      order = 0
-      parent = child0
-      profile = default
-      type = Terminal
-  [[three]]
-    [[[child0]]]
-      fullscreen = False
-      last_active_term = d69bcd95-fb18-4621-b0ab-5c86dd0d069a
-      last_active_window = True
-      maximised = False
-      order = 0
-      parent = ""
-      position = 0:25
-      size = 960, 1175
-      title = /bin/bash
-      type = Window
     [[[child1]]]
-      order = 0
-      parent = child0
-      position = 778
-      ratio = 0.663404255319
-      type = VPaned
-    [[[child2]]]
-      order = 0
-      parent = child0
-      position = 384
-      ratio = 0.495501285347
-      type = VPaned
-    [[[terminal3]]]
-      order = 0
-      parent = child0
-      profile = default
+      parent = window0
       type = Terminal
-      uuid = d909d8f2-dce0-484c-94e4-b65cc25dddf7
-    [[[terminal4]]]
-      order = 1
-      parent = child1
-      profile = default
-      type = Terminal
-      uuid = d69bcd95-fb18-4621-b0ab-5c86dd0d069a
-    [[[terminal5]]]
-      order = 1
-      parent = child2
-      profile = default
-      type = Terminal
-      uuid = fa1b5d04-9e51-40d8-a4c6-ddfdf809598d
+    [[[window0]]]
+      parent = ""
+      type = Window
 [plugins]
   [[CustomCommandsMenu]]
     [[[alias pat]]]
