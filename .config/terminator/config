@@ -11,6 +11,7 @@
   inactive_color_offset = 0.89
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
+  tab_position = bottom
   title_inactive_bg_color = "#565656"
   title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#579baf"
