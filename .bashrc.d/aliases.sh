@@ -51,11 +51,14 @@ alias t='terminator &'
 alias a='atom -n ~/svn/systems/trunk/puppet/environments'
 alias b=brightness
 alias t='tmux a || tmux'
+alias ta='exec tmux att'
 alias sup='_sup'
 alias svnfind='_svnfind'
 #alias svn='GTK_THEME=Greybird svn'
 alias gst='git status'
 alias g=git
+alias gg='git gui &'
+alias cola='nohup git cola &'
 
 alias cr='cmus-remote'
 alias crplay='cmus-remote --play' crp='crplay'

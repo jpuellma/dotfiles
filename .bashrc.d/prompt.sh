@@ -58,11 +58,11 @@ ps1_hostname="$([[ -e /bin/hostname ]] && hostname || echo $HOSTNAME.$([[ -e /bi
 
 function _update_ps1() {
     # export PS1="$(~/.powerline-shell.py $? 2> /dev/null)"
-    export PS1="$(~/.powerline-shell.py --cwd-max-depth 1 --mode flat)"
+    export PS1="$(~/.powerline-shell.py --cwd-only --mode patched --colorize-hostname)"
 }
 
 
-if [[ -f ~/.powerline-shell.py ]]; then
+if [[ -a ~/.powerline-shell.py ]]; then
     export PROMPT_COMMAND='_update_ps1'
 # else
 #     # Setup your normal PS1 here.
@@ -81,7 +81,7 @@ if [[ -f ~/.powerline-shell.py ]]; then
 #     '
 fi
 
-case $HOSTNAME in 
+case $HOSTNAME in
     'optiplex790')
         export PS1="${tput_fg_yellow}\[\][\u@\h \W]\$ \[\] ${tput_reset}"
         ;;
@@ -89,4 +89,3 @@ case $HOSTNAME in
         export PS1="\[\][\u@\h \W]\$ \[\] "
         ;;
 esac
-

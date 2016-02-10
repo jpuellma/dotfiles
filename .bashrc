@@ -14,7 +14,7 @@ export PROFILE_TYPE='blacktop'
 unset GNOME_KEYRING_CONTROL
 
 if [ -x ~/bin/nocapslock ]; then
-    sudo ${HOME}/bin/nocapslock
+    ${HOME}/bin/nocapslock
 fi
 
 for i in ~/.bashrc.d/*.sh ; do

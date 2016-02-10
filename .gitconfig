@@ -16,8 +16,8 @@
 	recentrepo = /home/jpuellmann/bin
 	recentrepo = /home/jpuellmann/.crypt
 	tabsize = 4
-	recentrepo = /home/jpuellmann/vagrants/nyt-vagrant-sandbox
-	recentrepo = /home/jpuellmann/vagrants/infra-sw/spacewalk-utils
+	editor = atom
+	historybrowser = gitk
 [alias]
 	co = checkout
 	br = branch
@@ -26,3 +26,9 @@
 	a = add
 [push]
 	default = simple
+[cola]
+	fontdiff = Source Code Pro,10,-1,5,50,0,0,0,0,0
+	tabwidth = 2
+	textwidth = 80
+[diff]
+	tool = xxdiff
