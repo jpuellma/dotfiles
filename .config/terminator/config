@@ -1,4 +1,5 @@
 [global_config]
+  always_split_with_profile = True
   borderless = True
   broadcast_default = off
   custom_url_handler = vivaldi-snapshot
@@ -46,14 +47,27 @@
 [plugins]
   [[CustomCommandsMenu]]
     [[[alias pat]]]
-      command = '''/bin/grep -q "alias pat" ~/.bash_profile || echo "alias pat='puppet agent -t | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
+      command = '''/bin/grep -q "alias pat=" ~/.bash_profile || echo "alias pat='puppet agent -t 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
       enabled = True
       name = alias pat
+      position = 0
+    [[[alias patd]]]
+      command = '''/bin/grep -q "alias patd=" ~/.bash_profile || echo "alias patd='puppet agent -t --debug 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
+      enabled = True
+      name = alias patd
+      position = 1
+    [[[settitle]]]
+      command = '''printf "\033k$(hostname -f)\033"
+'''
+      enabled = True
+      name = settitle
+      position = 2
 [profiles]
   [[default]]
     allow_bold = False
     background_darkness = 1.57
     background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_02_2000x1600.jpg
+    copy_on_selection = True
     cursor_color = "#00ffec"
     font = Source Code Pro 9
     foreground_color = "#8c8c8c"
@@ -66,22 +80,37 @@
     urgent_bell = True
     use_system_font = False
     visible_bell = True
-  [[New Profile]]
-    background_image = None
-    font = Inconsolata Medium 9
+  [[atom]]
+    allow_bold = False
+    background_darkness = 1.57
+    background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_02_2000x1600.jpg
+    copy_on_selection = True
+    cursor_color = "#00ffec"
+    font = Source Code Pro 9
     foreground_color = "#8c8c8c"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scroll_background = False
+    scroll_on_output = False
+    scrollback_infinite = True
+    scrollback_lines = 10000
+    scrollbar_position = hidden
+    urgent_bell = True
     use_system_font = False
+    visible_bell = True
   [[o790]]
+    allow_bold = False
     background_darkness = 0.0
     background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_04_2133x1200.jpg
+    copy_on_selection = True
     cursor_color = "#00ffec"
-    custom_command = ssh o790
-    font = Monospace 8
+    custom_command = ssh -t optiplex790.nyhq.nytint.com exec tmux new-session -A -s o790
+    font = Source Code Pro 9
     foreground_color = "#f0f0f0"
     palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scroll_background = False
-    scrollback_infinite = True
+    scrollback_lines = 0
     scrollbar_position = hidden
     update_records = False
+    use_custom_command = True
     use_system_font = False
     visible_bell = True

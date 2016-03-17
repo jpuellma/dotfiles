@@ -58,7 +58,7 @@ alias svnfind='_svnfind'
 alias gst='git status'
 alias g=git
 alias gg='git gui &'
-alias cola='nohup git cola &'
+alias cola='nohup git cola >/dev/null 2>&1 & '
 
 alias cr='cmus-remote'
 alias crplay='cmus-remote --play' crp='crplay'
