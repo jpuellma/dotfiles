@@ -51,8 +51,10 @@ set fo-=t
 
 "colorscheme jpuellma
 "colorscheme solarized
-set background=dark
-colorscheme xoria256
+"set background=dark
+if ! exists('$TMUX')
+  colorscheme xoria256
+endif
 
 " enforce purity
 noremap  <Up> <Nop>
@@ -78,3 +80,8 @@ set autoread " reload file when changes happen in other editors
 vnoremap <Leader>s :sort<CR>
 
 let @r = '%s/\(.*\)	 \+MD5:.*\nSHA-256: \(.*\)/\2  \1'
+
+" Play nice with tmux displays
+if exists('$TMUX')
+  set term=screen-256color
+endif
