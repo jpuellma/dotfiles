@@ -85,3 +85,4 @@ let @r = '%s/\(.*\)	 \+MD5:.*\nSHA-256: \(.*\)/\2  \1'
 if exists('$TMUX')
   set term=screen-256color
 endif
+hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#875f87

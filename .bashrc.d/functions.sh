@@ -57,3 +57,10 @@ function _lrtail() {
 function pwgrep() {
     gpg -d ~/.crypt/passwords.gpg | grep $*
 }
+
+s ()
+{
+  printf "\033k$*\033";
+  /bin/ssh $*
+}
+
