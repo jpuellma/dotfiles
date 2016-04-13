@@ -6,3 +6,5 @@ export crypt='~/.crypt'
 
 export AWS_DEFAULT_REGION=us-east-1
 export AWS_DEFAULT_PROFILE=nyt.vpc
+
+export VAGRANT_DEFAULT_PROVIDER=virtualbox
