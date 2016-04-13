@@ -29,8 +29,8 @@ function _setpath() {
     esac
 } # end function _setpath()
 
-function _settitle() {
-    echo -ne "\033]0;$* \007"
+function settitle() {
+    printf "\033k$1\033\\"
 }
 
 function _svnfind() {
@@ -60,7 +60,8 @@ function pwgrep() {
 
 s ()
 {
-  printf "\033k$*\033";
-  /bin/ssh $*
+  settitle $*
+  ssh $*
+  settitle ${USER}@${HOSTNAME}
 }
 
