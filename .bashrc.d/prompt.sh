@@ -85,6 +85,9 @@ case $HOSTNAME in
     'optiplex790')
         export PS1="${tput_fg_yellow}\[\][\u@\h \W]\$ \[\] ${tput_reset}"
         ;;
+    'James-Puellmann-8966')
+        export PS1="${tput_fg_yellow}\[\][\! \W]\$ \[\] ${tput_reset}"
+        ;;
     *)
         export PS1="\[\][\u@\h \W]\$ \[\] "
         ;;

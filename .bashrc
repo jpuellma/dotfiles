@@ -25,6 +25,7 @@ _set_dir_colors
 
 _pathmunge ${GOPATH}:${GOPATH}/bin after
 _pathmunge ${HOME}/.local/lib/aws/bin after
+_pathmunge ${HOME}/packer/bin before
 
 complete -C ${HOME}/.local/lib/aws/bin/aws_completer aws
 
