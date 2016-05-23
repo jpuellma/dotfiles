@@ -79,3 +79,5 @@ alias mbp='gnome-terminal --profile mbp'
 alias shrug='echo ${shrug}'
 alias brofist='echo ${brofist}'
 alias thumbsup='echo ${thumbsup}'
+
+alias m=mount_fix.sh
