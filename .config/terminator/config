@@ -12,7 +12,6 @@
   inactive_color_offset = 0.89
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
-  tab_position = bottom
   title_inactive_bg_color = "#565656"
   title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#579baf"
@@ -57,7 +56,7 @@
       name = alias patd
       position = 1
     [[[settitle]]]
-      command = '''printf "\033k$(hostname -f)\033"
+      command = '''title=$(hostname) && printf "\033k%s\033" ${title}
 '''
       enabled = True
       name = settitle
@@ -65,7 +64,7 @@
 [profiles]
   [[default]]
     allow_bold = False
-    background_color = "#002b36"
+    background_color = "#00222b"
     background_darkness = 1.57
     background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_02_2000x1600.jpg
     copy_on_selection = True
@@ -133,6 +132,7 @@
   [[o790 Light]]
     allow_bold = False
     background_color = "#fdf6e3"
+    background_image = None
     copy_on_selection = True
     cursor_color = "#0d67ff"
     custom_command = ssh -t optiplex790.nyhq.nytint.com exec tmux new-session -A -s o790
