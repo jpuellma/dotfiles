@@ -38,3 +38,5 @@ complete -C ${HOME}/.local/lib/aws/bin/aws_completer aws
 if ! [[ -z $DISPLAY ]]; then
     xrdb -merge ~/.Xresources
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
