@@ -10,3 +10,5 @@ export AWS_DEFAULT_PROFILE=nyt.vpc
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 export SPEC_OPTS="--format documentation"
+export rvm_path="${HOME}/.rvm"
+
