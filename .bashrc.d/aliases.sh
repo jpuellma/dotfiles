@@ -80,4 +80,5 @@ alias shrug='echo ${shrug}'
 alias brofist='echo ${brofist}'
 alias thumbsup='echo ${thumbsup}'
 
-alias m=mount_fix.sh
+alias m='mount_fix.sh'
+alias u='mount_fix.sh -u'
