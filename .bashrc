@@ -25,6 +25,7 @@ _set_dir_colors
 
 _pathmunge ${GOPATH}:${GOPATH}/bin after
 _pathmunge ${HOME}/.local/lib/aws/bin after
+_pathmunge ${HOME}/packer/bin before
 
 complete -C ${HOME}/.local/lib/aws/bin/aws_completer aws
 
@@ -38,7 +39,7 @@ if ! [[ -z $DISPLAY ]]; then
     xrdb -merge ~/.Xresources
 fi
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+_pathmunge $PATH:$HOME/.rvm/bin after
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'

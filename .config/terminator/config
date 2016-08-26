@@ -12,7 +12,6 @@
   inactive_color_offset = 0.89
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
-  tab_position = bottom
   title_inactive_bg_color = "#565656"
   title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#579baf"
@@ -33,9 +32,9 @@
   hide_window = None
   reset_clear = None
   ungroup_tab = None
-  zoom_in = <Primary><Shift>plus
-  zoom_normal = <Super>0
-  zoom_out = <Primary><Shift>underscore
+  zoom_in = <Primary><Alt>equal
+  zoom_normal = <Primary><Alt>0
+  zoom_out = <Primary><Alt>minus
 [layouts]
   [[default]]
     [[[child1]]]
@@ -47,30 +46,26 @@
 [plugins]
   [[CustomCommandsMenu]]
     [[[alias pat]]]
-      command = '''/bin/grep -q "alias pat=" ~/.bash_profile || echo "alias pat='puppet agent -t 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
+      command = '''/bin/grep -q "alias pat=" ~/.bash_profile || echo "alias pat='puppet agent -t 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile ; /bin/grep -q "alias patd=" ~/.bash_profile || echo "alias patd='puppet agent -t --debug 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
       enabled = True
       name = alias pat
       position = 0
-    [[[alias patd]]]
-      command = '''/bin/grep -q "alias patd=" ~/.bash_profile || echo "alias patd='puppet agent -t --debug 2>&1 | tee ~/pat.out'" >> ~/.bash_profile && . ~/.bash_profile'''
-      enabled = True
-      name = alias patd
-      position = 1
     [[[settitle]]]
-      command = '''printf "\033k$(hostname -f)\033"
-'''
+      command = printf "\033k%s\033" $(hostname)
       enabled = True
       name = settitle
-      position = 2
+      position = 1
 [profiles]
   [[default]]
     allow_bold = False
+    background_color = "#001c23"
     background_darkness = 1.57
     background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_02_2000x1600.jpg
     copy_on_selection = True
     cursor_color = "#00ffec"
+    custom_command = bash --login
     font = Source Code Pro 9
-    foreground_color = "#8c8c8c"
+    foreground_color = "#839496"
     palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scroll_background = False
     scroll_on_output = False
@@ -78,8 +73,14 @@
     scrollback_lines = 10000
     scrollbar_position = hidden
     urgent_bell = True
+    use_custom_command = True
     use_system_font = False
     visible_bell = True
+  [[Atom]]
+    background_image = None
+    scrollback_infinite = True
+  [[asdf]]
+    background_image = None
   [[atom]]
     allow_bold = False
     background_darkness = 1.57
@@ -97,13 +98,28 @@
     urgent_bell = True
     use_system_font = False
     visible_bell = True
+  [[mbp]]
+    allow_bold = False
+    background_color = "#190011"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#fffd00"
+    custom_command = ssh -t james-puellmann-8966.nyhq.nytint.com exec /usr/local/bin/tmux new-session -A -s mbp
+    font = Source Code Pro 9
+    foreground_color = "#ffb14f"
+    scrollback_lines = 0
+    scrollbar_position = hidden
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+    visible_bell = True
   [[o790]]
     allow_bold = False
     background_darkness = 0.0
     background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_04_2133x1200.jpg
     copy_on_selection = True
     cursor_color = "#00ffec"
-    custom_command = ssh -t optiplex790.nyhq.nytint.com exec tmux new-session -A -s o790
+    custom_command = "ssh -t optiplex790.nyhq.nytint.com exec 'tmux attach || bash'"
     font = Source Code Pro 9
     foreground_color = "#f0f0f0"
     palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
@@ -112,5 +128,39 @@
     scrollbar_position = hidden
     update_records = False
     use_custom_command = True
+    use_system_font = False
+    visible_bell = True
+  [[o790 Light]]
+    allow_bold = False
+    background_color = "#fdf6e3"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#0d67ff"
+    custom_command = ssh -t optiplex790.nyhq.nytint.com exec tmux new-session -A -s o790
+    font = Source Code Pro 9
+    foreground_color = "#657b83"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollback_lines = 0
+    scrollbar_position = hidden
+    update_records = False
+    use_custom_command = True
+    use_system_font = False
+    visible_bell = True
+  [[test]]
+    allow_bold = False
+    background_color = "#300a24"
+    background_darkness = 1.57
+    background_image = /home/jpuellmann/Pictures/Wallpaper/woodgrain/wood_02_2000x1600.jpg
+    copy_on_selection = True
+    cursor_color = "#00ffec"
+    font = Source Code Pro 9
+    foreground_color = "#ffffff"
+    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    scroll_background = False
+    scroll_on_output = False
+    scrollback_infinite = True
+    scrollback_lines = 10000
+    scrollbar_position = hidden
+    urgent_bell = True
     use_system_font = False
     visible_bell = True
