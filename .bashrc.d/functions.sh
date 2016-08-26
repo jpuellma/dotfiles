@@ -65,3 +65,11 @@ s ()
   settitle ${USER}@${HOSTNAME}
 }
 
+
+vs ()
+{
+  settitle $*
+  vagrant ssh $*
+  settitle ${USER}@${HOSTNAME}
+}
+
