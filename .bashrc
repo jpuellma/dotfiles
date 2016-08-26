@@ -37,3 +37,11 @@ complete -C ${HOME}/.local/lib/aws/bin/aws_completer aws
 if ! [[ -z $DISPLAY ]]; then
     xrdb -merge ~/.Xresources
 fi
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/home/jpuellmann/google-cloud-sdk/completion.bash.inc'
