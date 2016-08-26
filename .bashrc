@@ -39,4 +39,12 @@ if ! [[ -z $DISPLAY ]]; then
     xrdb -merge ~/.Xresources
 fi
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+_pathmunge $PATH:$HOME/.rvm/bin after
+#_pathmunge $PATH:$HOME/google-cloud-sdk/bin after
+
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/home/jpuellmann/google-cloud-sdk/completion.bash.inc'
