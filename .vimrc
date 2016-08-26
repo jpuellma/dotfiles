@@ -25,6 +25,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-expand-region'
+Bundle 'metakirby5/codi.vim'
 call vundle#end()
 
 set nocompatible
