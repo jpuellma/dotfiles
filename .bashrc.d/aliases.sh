@@ -5,6 +5,7 @@ case $(uname -a) in
     Darwin*)
         alias ls='ls -G'
         alias ll='ls -l'
+        alias l='ls'
         alias grep='/usr/bin/grep --color=always'
         alias updatedb='/usr/libexec/locate.updatedb'
         alias less='less -RFX'
@@ -13,6 +14,7 @@ case $(uname -a) in
     *Linux*)
         alias ls='/bin/ls --color=always'
         alias ll='ls -l'
+        alias l='ls'
         alias grep='/bin/grep --color=always'
         alias less='less -RFX'
         alias cdsvn='cd ~/svn'
@@ -59,6 +61,7 @@ alias gst='git status'
 alias g=git
 alias gg='git gui &'
 alias cola='nohup git cola >/dev/null 2>&1 & '
+alias ecola='exec cola'
 
 alias cr='cmus-remote'
 alias crplay='cmus-remote --play' crp='crplay'
@@ -82,3 +85,5 @@ alias thumbsup='echo ${thumbsup}'
 
 alias m='mount_fix.sh'
 alias u='mount_fix.sh -u'
+
+alias tpr='tput reset'
