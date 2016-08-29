@@ -81,3 +81,8 @@ codi() {
     hi NonText ctermfg=0 |\
     Codi ${1:-python}"
 }
+
+ts () {
+  foo="$*"
+  tmux new-window -n "${foo}" ssh ${foo}
+}
