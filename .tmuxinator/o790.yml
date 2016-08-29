@@ -1,0 +1,7 @@
+# ~/.tmuxinator/default.yml
+
+name: o790
+root: ~/
+
+windows:
+  - o790:

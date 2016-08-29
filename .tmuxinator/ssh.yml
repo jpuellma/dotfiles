@@ -1,0 +1,7 @@
+# ~/.tmuxinator/default.yml
+
+name: ssh
+root: ~/<%= @args[0] %>
+
+windows:
+  - foo:

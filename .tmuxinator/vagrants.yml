@@ -1,0 +1,14 @@
+# ~/.tmuxinator/default.yml
+
+name: vagrants
+root: ~/vagrants
+
+windows:
+  - ~/vagrants:
+  - ca:
+  - fe01:
+  - db01:
+  - db02:
+  - pr01:
+  - test01:
+  - ~/vagrants:

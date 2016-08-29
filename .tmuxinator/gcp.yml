@@ -1,0 +1,11 @@
+# ~/.tmuxinator/default.yml
+
+name: gcp
+root: ~/gcp
+
+windows:
+  - gcp:
+  - gcp:
+  - gcp:
+  - gcp:
+  - gcp:
