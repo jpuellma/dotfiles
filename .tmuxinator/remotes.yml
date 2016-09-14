@@ -1,0 +1,11 @@
+# ~/.tmuxinator/default.yml
+
+name: remotes
+root: ~/
+
+windows:
+  - remotes:
+  - remotes:
+  - remotes:
+  - remotes:
+  - remotes:
