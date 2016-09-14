@@ -51,7 +51,7 @@
       name = alias pat
       position = 0
     [[[settitle]]]
-      command = printf "\033k%s\033" $(hostname)
+      command = 'printf "\033k%s            \033" "$(hostname -f)"'
       enabled = True
       name = settitle
       position = 1
@@ -122,7 +122,7 @@
     custom_command = "ssh -t optiplex790.nyhq.nytint.com exec 'tmux attach || bash'"
     font = Source Code Pro 9
     foreground_color = "#f0f0f0"
-    palette = "#2e3436:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    palette = "#2e3436:#ff0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#f0f0f0:#555753:#ff0000:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
     scroll_background = False
     scrollback_lines = 0
     scrollbar_position = hidden
