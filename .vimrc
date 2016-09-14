@@ -26,6 +26,10 @@ Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-expand-region'
 Bundle 'metakirby5/codi.vim'
+Plugin 'vim-airline/vim-airline'
+" Plugin 'scrooloose/nerdtree'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'jacoborus/tender'
 call vundle#end()
 
 set nocompatible
@@ -54,7 +58,7 @@ set fo-=t
 "colorscheme solarized
 "set background=dark
 if ! exists('$TMUX')
-  colorscheme xoria256
+ colorscheme xoria256
 endif
 
 " enforce purity
@@ -87,3 +91,4 @@ if exists('$TMUX')
   set term=screen-256color
 endif
 hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#875f87
+set ls=2
