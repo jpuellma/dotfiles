@@ -16,7 +16,7 @@
 	recentrepo = /home/jpuellmann/bin
 	recentrepo = /home/jpuellmann/.crypt
 	tabsize = 4
-	editor = atom
+	editor = code
 	historybrowser = gitk
 [alias]
 	co = checkout
