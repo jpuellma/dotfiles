@@ -1,0 +1,18 @@
+[
+	{
+		"label": "dotfiles",
+		"description": "$home/git/github.com/jpuellma/dotfiles"
+	},
+	{
+		"label": "dhcp_option_set",
+		"description": "$home/git/github.com/jpuellma/dhcp_option_set"
+	},
+	{
+		"label": "infra-image-build",
+		"description": "$home/git/github.com/jpuellma/infra-image-build"
+	},
+	{
+		"label": "hiera",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/hiera"
+	}
+]

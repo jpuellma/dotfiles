@@ -1,0 +1,38 @@
+// Place your settings in this file to overwrite the default settings
+{
+  // Controls the font family.
+  "editor.fontFamily": "'Source Code Pro'",
+
+  // Controls the font weight.
+  "editor.fontWeight": "normal",
+
+  // Controls the font size in pixels.
+  "editor.fontSize": 12,
+
+  // The number of spaces a tab is equal to. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.tabSize": 2,
+
+  // Insert spaces when pressing Tab. This setting is overriden based on the file contents when `editor.detectIndentation` is on.
+  "editor.insertSpaces": true,
+
+  // When opening a file, `editor.tabSize` and `editor.insertSpaces` will be detected based on the file contents.
+  "editor.detectIndentation": true,
+
+  // Controls if selections have rounded corners
+  "editor.roundedSelection": false,
+
+  // Customizes which terminal to run on Linux.
+  "terminal.external.linuxExec": "gnome-terminal",
+
+  // Controls the font family of the terminal, this defaults to editor.fontFamily's value.
+  "terminal.integrated.fontFamily": "Source Code Pro",
+
+  // Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
+  "terminal.integrated.fontSize": 10,
+
+  // Columns at which to show vertical rulers
+  "editor.rulers": [80],
+
+    // Controls visibility of the glyph margin
+  "editor.glyphMargin": true,
+}
