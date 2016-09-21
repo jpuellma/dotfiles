@@ -1,0 +1,27 @@
+{
+  "version": "0.1.0",
+  "command": "sh",
+  "isShellCommand": true,
+  "args": [],
+  "showOutput": "always",
+  "echoCommand": true,
+  "suppressTaskName": true,
+  "tasks": [
+    {
+      "taskName": "install",
+      "args":["cd ${workspaceRoot} && bundle install --path .bundle/gems"]
+    },
+    { 
+      "taskName": "prep",
+      "args": ["cd ${workspaceRoot} && bundle exec rake spec_prep SPEC_OPTS=\"--format progress\""]
+    },
+    { 
+      "taskName": "spec",
+      "args": ["cd ${workspaceRoot} && bundle exec rake spec_standalone SPEC_OPTS=\"--format progress\""]
+    },
+    { 
+      "taskName": "clean",
+      "args": ["cd ${workspaceRoot} && bundle exec rake spec_clean SPEC_OPTS=\"--format progress\""]
+    }
+  ]
+}
