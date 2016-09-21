@@ -28,7 +28,7 @@
   "terminal.integrated.fontFamily": "Source Code Pro",
 
   // Controls the font size in pixels of the terminal, this defaults to editor.fontSize's value.
-  "terminal.integrated.fontSize": 10,
+  "terminal.integrated.fontSize": 12,
 
   // Columns at which to show vertical rulers
   "editor.rulers": [80],

@@ -1,18 +1,286 @@
 [
 	{
-		"label": "dotfiles",
-		"description": "$home/git/github.com/jpuellma/dotfiles"
+		"label": "github/dotfiles",
+		"description": "/home/jpuellmann/git/github.com/jpuellma/dotfiles"
 	},
 	{
-		"label": "dhcp_option_set",
-		"description": "$home/git/github.com/jpuellma/dhcp_option_set"
+		"label": "github/dhcp_option_set",
+		"description": "/home/jpuellmann/git/github.com/jpuellma/dhcp_option_set"
 	},
 	{
-		"label": "infra-image-build",
-		"description": "$home/git/github.com/jpuellma/infra-image-build"
+		"label": "github/infra-image-build",
+		"description": "/home/jpuellmann/git/github.com/jpuellma/infra-image-build"
 	},
 	{
 		"label": "hiera",
 		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/hiera"
+	},
+	{
+		"label": "puppet-module-apache",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/apache"
+	},
+	{
+		"label": "puppet-module-apache_ssl",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/apache_ssl"
+	},
+	{
+		"label": "puppet-module-artifactory",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/artifactory"
+	},
+	{
+		"label": "puppet-module-augeas",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/augeas"
+	},
+	{
+		"label": "puppet-module-autofs",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/autofs"
+	},
+	{
+		"label": "puppet-module-bind",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/bind"
+	},
+	{
+		"label": "puppet-module-blockdevice",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/blockdevice"
+	},
+	{
+		"label": "puppet-module-collectd",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/collectd"
+	},
+	{
+		"label": "puppet-module-concat",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/concat"
+	},
+	{
+		"label": "puppet-module-cream",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/cream"
+	},
+	{
+		"label": "puppet-module-datacat",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/datacat"
+	},
+	{
+		"label": "puppet-module-dhcp",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/dhcp"
+	},
+	{
+		"label": "puppet-module-disable_hugepage",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/disable_hugepage"
+	},
+	{
+		"label": "puppet-module-docker",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/docker"
+	},
+	{
+		"label": "puppet-module-elasticsearch",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/elasticsearch"
+	},
+	{
+		"label": "puppet-module-fluentd",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/fluentd"
+	},
+	{
+		"label": "puppet-module-gpg_key",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/gpg_key"
+	},
+	{
+		"label": "puppet-module-hostnames",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/hostnames"
+	},
+	{
+		"label": "puppet-module-java",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/java"
+	},
+	{
+		"label": "puppet-module-kafka",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/kafka"
+	},
+	{
+		"label": "puppet-module-limits",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/limits"
+	},
+	{
+		"label": "puppet-module-localusers",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/localusers"
+	},
+	{
+		"label": "puppet-module-logrotate",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/logrotate"
+	},
+	{
+		"label": "puppet-module-lvm",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/lvm"
+	},
+	{
+		"label": "puppet-module-memcached",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/memcached"
+	},
+	{
+		"label": "puppet-module-monit",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/monit"
+	},
+	{
+		"label": "puppet-module-mount_providers",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/mount_providers"
+	},
+	{
+		"label": "puppet-module-mysql",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/mysql"
+	},
+	{
+		"label": "puppet-module-nagiosxi",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/nagiosxi"
+	},
+	{
+		"label": "puppet-module-networker",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/networker"
+	},
+	{
+		"label": "puppet-module-networker_server",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/networker_server"
+	},
+	{
+		"label": "puppet-module-networker_sn",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/networker_sn"
+	},
+	{
+		"label": "puppet-module-newrelic",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/newrelic"
+	},
+	{
+		"label": "puppet-module-nginx",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/nginx"
+	},
+	{
+		"label": "puppet-module-nimbul",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/nimbul"
+	},
+	{
+		"label": "puppet-module-nodejs",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/nodejs"
+	},
+	{
+		"label": "puppet-module-nrpe_plugins",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/nrpe_plugins"
+	},
+	{
+		"label": "puppet-module-passenger",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/passenger"
+	},
+	{
+		"label": "puppet-module-php",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/php"
+	},
+	{
+		"label": "puppet-module-postfix",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/postfix"
+	},
+	{
+		"label": "puppet-module-postgresql",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/postgresql"
+	},
+	{
+		"label": "puppet-module-profile",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/profile"
+	},
+	{
+		"label": "puppet-module-puppet",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/puppet"
+	},
+	{
+		"label": "puppet-module-rngd",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/rngd"
+	},
+	{
+		"label": "puppet-module-role",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/role"
+	},
+	{
+		"label": "puppet-module-rotate",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/rotate"
+	},
+	{
+		"label": "puppet-module-rsync",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/rsync"
+	},
+	{
+		"label": "puppet-module-ruby",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/ruby"
+	},
+	{
+		"label": "puppet-module-screen",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/screen"
+	},
+	{
+		"label": "puppet-module-snmp",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/snmp"
+	},
+	{
+		"label": "puppet-module-spacewalk",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/spacewalk"
+	},
+	{
+		"label": "puppet-module-squid3",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/squid3"
+	},
+	{
+		"label": "puppet-module-sslcerts",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sslcerts"
+	},
+	{
+		"label": "puppet-module-sssd",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sssd"
+	},
+	{
+		"label": "puppet-module-stackdriver",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/stackdriver"
+	},
+	{
+		"label": "puppet-module-sudoers",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sudoers"
+	},
+	{
+		"label": "puppet-module-sugar",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sugar"
+	},
+	{
+		"label": "puppet-module-sumo",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sumo"
+	},
+	{
+		"label": "puppet-module-svnfetch",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/svnfetch"
+	},
+	{
+		"label": "puppet-module-sysctl",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/sysctl"
+	},
+	{
+		"label": "puppet-module-syslogng",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/syslogng"
+	},
+	{
+		"label": "puppet-module-varnish",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/varnish"
+	},
+	{
+		"label": "puppet-module-vcsrepo",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/vcsrepo"
+	},
+	{
+		"label": "puppet-module-venafi",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/venafi"
+	},
+	{
+		"label": "puppet-module-wget",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/wget"
+	},
+	{
+		"label": "puppet-module-xinetd",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/xinetd"
+	},
+	{
+		"label": "puppet-module-yum",
+		"description": "/o790/jpuellmann/vagrants/repos/puppetdata/modules/yum"
 	}
 ]
