@@ -33,6 +33,10 @@
   // Columns at which to show vertical rulers
   "editor.rulers": [80],
 
-    // Controls visibility of the glyph margin
+  // Controls visibility of the glyph margin
   "editor.glyphMargin": true,
+
+  // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+  "editor.wordWrap": false,
+
 }
