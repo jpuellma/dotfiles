@@ -80,6 +80,7 @@ alias vstat='vagrant status'
 
 alias mbp='gnome-terminal --profile mbp'
 alias shrug='echo ${shrug}'
+alias shrugn='echo -n ${shrug}'
 alias brofist='echo ${brofist}'
 alias thumbsup='echo ${thumbsup}'
 
