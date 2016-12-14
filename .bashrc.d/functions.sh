@@ -86,3 +86,7 @@ ts () {
   foo="$*"
   tmux new-window -n "${foo}" ssh ${foo}
 }
+
+function timestamp() {
+  date --iso-8601=seconds
+}

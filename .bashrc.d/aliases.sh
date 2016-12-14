@@ -88,3 +88,5 @@ alias m='mount_fix.sh'
 alias u='mount_fix.sh -u'
 
 alias tpr='tput reset'
+
+alias lrtail='ls -lrt | tail'
