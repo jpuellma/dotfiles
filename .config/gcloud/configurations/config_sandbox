@@ -1,0 +1,8 @@
+[core]
+account = james.puellmann@nytimes.com
+project = core-services-sandbox
+
+[compute]
+zone = us-east1-d
+region = us-east1
+

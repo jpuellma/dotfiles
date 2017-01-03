@@ -1,0 +1,8 @@
+[core]
+account = james.puellmann@nytimes.com
+project = core-services-prd
+
+[compute]
+zone = us-central-1a
+region = us-central1
+
