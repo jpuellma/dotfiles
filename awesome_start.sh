@@ -4,13 +4,11 @@
 # of the default awesome exec.
 # This file should be executable.
 
+browser='/usr/bin/vivaldi-snapshot'
 terminal='/usr/bin/gnome-terminal'
 
-${terminal} -e htop &
+${browser} &
 ${terminal} &
-
-/usr/bin/google-chrome &
-
+${terminal} -e htop &
 /usr/bin/synergyc blacktop
 exec /usr/bin/awesome
-
