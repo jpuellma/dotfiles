@@ -27,7 +27,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'terryma/vim-expand-region'
 Bundle 'metakirby5/codi.vim'
 Plugin 'vim-airline/vim-airline'
-" Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jacoborus/tender'
 call vundle#end()
@@ -38,7 +38,7 @@ syntax on
 set nohlsearch
 set expandtab
 set tabstop=8
-set shiftwidth=2
+set shiftwidth=4
 set smarttab
 set smartindent
 set modelines=10
