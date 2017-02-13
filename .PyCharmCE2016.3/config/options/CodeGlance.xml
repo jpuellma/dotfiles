@@ -1,0 +1,6 @@
+<application>
+  <component name="CodeGlance">
+    <option name="percentageBasedClick" value="true" />
+    <option name="pixelsPerLine" value="4" />
+  </component>
+</application>

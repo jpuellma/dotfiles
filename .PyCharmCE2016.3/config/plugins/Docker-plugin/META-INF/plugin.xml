@@ -1,0 +1,278 @@
+<idea-plugin version="2">
+  <name>Docker integration</name>
+  <id>Docker</id>
+  <version>2.4.1</version>
+  <depends>com.intellij.modules.remoteServers</depends>
+  <depends>com.intellij.modules.json</depends>
+  <depends optional="true" config-file="remote-run-docker.xml">org.jetbrains.plugins.remote-run</depends>
+  <depends optional="true" config-file="javaee-specific.xml">com.intellij.javaee</depends>
+  <vendor url="https://www.jetbrains.com" email="michael.golubev@jetbrains.com">JetBrains</vendor>
+  <category>Application Servers</category>
+  <idea-version since-build="163.7743" until-build="171.*"/>
+  <description>
+    
+      This plugin lets you download and build &lt;a href="https://www.docker.com/"&gt;Docker&lt;/a&gt; images, create and start Docker containers, and carry out other related tasks.&lt;br&gt;
+      &lt;b&gt;Note:&lt;/b&gt; For the plugin to work properly, your IDE should be started using Java 7 or a later version. For corresponding instructions, see &lt;a href="https://intellij-support.jetbrains.com/hc/en-us/articles/206827547-Selecting-the-JDK-version-the-IDE-will-run-under"&gt;Selecting the JDK version the IDE will run under&lt;/a&gt;.
+      
+  </description>
+  <change-notes>
+    
+    &lt;p&gt;2.4.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Aligned with 2016.3&lt;/li&gt;
+      &lt;li&gt;PY-21465 Switched to use Netty 4.1.5 to fix multiple problems&lt;/li&gt;
+      &lt;li&gt;IDEA-152432 Docker plugin suggests using Dockerfile from libraries&lt;/li&gt;
+      &lt;li&gt;IDEA-162047 Performance problem on startup from Dockerfile detection&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.4.0: &lt;/p&gt;
+    &lt;ul&gt;
+    &lt;li&gt;IDEA-161514 Docker Deployment run configuration hangs&lt;/li&gt;
+    &lt;li&gt;Allow to cancel pullImage() and exec() operations; more correct counting of total and current download sizes&lt;/li&gt;
+    &lt;li&gt;IDEA-152971 - Docker: dedicate view is not created on first server registration until project is reopened&lt;/li&gt;
+    &lt;li&gt;"Pipe closed" exception on reading container's stderr fixed&lt;/li&gt;
+    &lt;li&gt;Merged with remote execution integrations:&lt;/li&gt;
+      &lt;ul&gt;
+      &lt;li&gt;PY-20999 InvalidStateException on adding Python docker interpreter fixed&lt;/li&gt;
+      &lt;li&gt;Stuck of the debugger on exiting a Python script fixed&lt;/li&gt;
+      &lt;li&gt;Updating progress indicator status with stdout messages from running docker container&lt;/li&gt;
+      &lt;li&gt;PY-20860 Built-ins aren't resolved for Docker remote interpreter&lt;/li&gt;
+      &lt;li&gt;Docker remote run - use docker agent in remote language integrations&lt;/li&gt;
+      &lt;li&gt;PY-20743 I have just upgraded and now python interpreter is not working for docker-compose&lt;/li&gt;
+      &lt;li&gt;PY-20358 Reloading generated skeletons keeps on running&lt;/li&gt;
+      &lt;li&gt;WEB-22719 Node remote interpreter: Docker: correct error message when server is not selected&lt;/li&gt;
+      &lt;li&gt;PY-20358 Reloading generated skeletons keeps on running&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.3.3: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Docker - more secure version of the warning suggested for IDEA-153973&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.3.2: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-153973 - show warning about socat-based workaround&lt;/li&gt;
+      &lt;li&gt;DSGN-2940 - Create new Docker icons&lt;/li&gt;
+      &lt;li&gt;improve error handling&lt;/li&gt;
+      &lt;li&gt;IDEA-155582 - Docker. Error is displayed for "!" in the correct Dockerfile in the Editor.&lt;/li&gt;
+      &lt;li&gt;IDEA-155150 - Dockerfile editor misidentifies $(...) as syntax error&lt;/li&gt;
+      &lt;li&gt;IDEA-155508 - Docker. Error is displayed for the correct Dockerfile in the Editor.&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.3.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-153973 - Plugin: Docker fails to connect via unix:// on Mac OS X&lt;/li&gt;
+      &lt;li&gt;IDEA-157736 - Deploying docker container fails because HostConfig was removed in docker v1.12&lt;/li&gt;
+      &lt;li&gt;IDEA-155356 - Docker: Order containers and Images in the Docker View&lt;/li&gt;
+      &lt;li&gt;IDEA-142322 - Add possibility to close attached console&lt;/li&gt;
+      &lt;li&gt;IDEA-155340 - Docker: Add possibility to "inspect" for images - tab for image properties&lt;/li&gt;
+      &lt;li&gt;IDEA-151199 - Docker: (on win / mac): Compute the local volume bindings considering virtual box path mapping&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.3.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-153414 - Docker-compose Redeploy should rebuild before deploying&lt;/li&gt;
+      &lt;li&gt;show existing mounts in volume bindings runtime editor&lt;/li&gt;
+      &lt;li&gt;fixed IDEA-150433 - Dockerfile editor should recognize multiline quotes&lt;/li&gt;
+      &lt;li&gt;IDEA-146876 - Docker: code style for Dockerfile&lt;/li&gt;
+      &lt;li&gt;IDEA-148564 - New help pages for Docker available&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.2.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-155691 - Docker: attach fails for remote Docker with insecured HTTP access&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.2.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-154430 - Docker Compose: scale action for services&lt;/li&gt;
+      &lt;li&gt;IDEA-154429 - Docker Compose: start/stop action for services&lt;/li&gt;
+      &lt;li&gt;IDEA-150970 - Docker: edit container settings in the Docker view - show all container names in the Properties tab&lt;/li&gt;
+      &lt;li&gt;fixed WEB-21233 ClassNotFoundException is thrown by Docker when any Remote Node.js interpreter is present&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.5: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-146347 Docker Plugin fails to attach to container running on server bound to unix socket&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.4: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-153513 Docker: terminals for Attach and Exec are broken&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.3: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-153303 Docker Run/Debug window missing labels for inputs&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.2: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-153214 Docker plug-in depends on SSH Remote Run which is not available in Community Edition&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-153110 PhpStorm fails to open PHP Interpreter dialog&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.1.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-137765 Support docker-compose - initial&lt;/li&gt;
+      &lt;li&gt;IDEA-151921 Docker Compose: show composed services / containers in separate subtree in Docker view&lt;/li&gt;
+      &lt;li&gt;IDEA-150970 Docker: edit container settings in the Docker view - volume bindings tab&lt;/li&gt;
+      &lt;li&gt;IDEA-151479 Don't show detected docker files from project libraries&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.0.1.alpha: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Docker Machine supported&lt;/li&gt;
+      &lt;li&gt;IDEA-150969 Docker: replace utility subnodes in the docker tree with tabbed ui&lt;/li&gt;
+      &lt;li&gt;IDEA-150970 Docker: edit container settings in the Docker view - environment variables tab&lt;/li&gt;
+      &lt;li&gt;IDEA-150970 Docker: edit container settings in the Docker view - port bindings tab&lt;/li&gt;
+      &lt;li&gt;fixed IDEA-151477 Dockerfile false negative syntax error message&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;2.0.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-150968 Docker: provide Docker view separately from Application servers&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.6: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-148830 Building Docker images takes forever in IDEA 15&lt;/li&gt;
+      &lt;li&gt;OC-13026 Disable Docker plugin for AppCode until we will decide to include Deployment section in settings&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.5: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed IDEA-145814 Dockerfile synthax errors&lt;/li&gt;
+      &lt;li&gt;Exec supported with Unix socket - see IDEA-146347&lt;/li&gt;
+      &lt;li&gt;IDEA-137782 Docker: detect dockerfile and suggest to create run config&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.4: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-148572 Dockerfile editor: provide completions for keywords&lt;/li&gt;
+      &lt;li&gt;IDEA-144536 Dockerfile in project root does not work with files in project root&lt;/li&gt;
+      &lt;li&gt;IDEA-146993 Added validation for the colon in the 'Host path' field to the volume binding dialog&lt;/li&gt;
+      &lt;li&gt;IDEA-138981 Disable ability "Show processes" for not running containers&lt;/li&gt;
+      &lt;li&gt;IDEA-145812 Missing icon for dockerfile&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.3: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Exec session supports both input and output&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.2: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dedicated application component for Docker Registry accounts&lt;/li&gt;
+      &lt;li&gt;Allow to test connection to a Docker Registry&lt;/li&gt;
+      &lt;li&gt;Pre-select registry of the image being pushed&lt;/li&gt;
+      &lt;li&gt;Pull from Docker Hub by default&lt;/li&gt;
+      &lt;li&gt;Fix: disable pull action for other clouds&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Supported pull and push to a Docker Registry&lt;/li&gt;
+      &lt;li&gt;IDEA-146001 Docker: show details of the created container on successful deploy&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.7.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-145858 Docker: improve status workflow in the Application Servers tool window&lt;/li&gt;
+      &lt;li&gt;IDEA-145971 Docker: group containers and images under dedicated tree nodes in the Application Servers view&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.6.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA 15 EAP build 143.116 supported&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.6.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Dockerfile language initial support&lt;/li&gt;
+      &lt;li&gt;fixed IDEA-145630 Docker: deployment process interrupted if base image needs to be pulled&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.5.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-145427 Docker: support full set of the options from Docker 1.21 remote api&lt;/li&gt;
+      &lt;li&gt;IDEA-138992 Simplify converting options for command line docker util into json&lt;/li&gt;
+      &lt;li&gt;provide existing container names in link creation dialog&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.4.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;fixed several NPEs, see IDEA-145239, IDEA-145240, IDEA-145237&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.4.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;IDEA-144399 Support for Docker Toolbox&lt;/li&gt;
+      &lt;li&gt;IDEA-144850 Docker: run a command in a running container&lt;/li&gt;
+      &lt;li&gt;IDEA-144983 Docker: improve UI for configuring container options&lt;/li&gt;
+      &lt;li&gt;IDEA-145154 Docker: allow to configure links to other containers&lt;/li&gt;
+      &lt;li&gt;IDEA-144612 Docker support: mount to volume current project&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.3.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Built with Java 6, notify Java 7 required&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.3.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Moved to IDEA 15&lt;/li&gt;
+      &lt;li&gt;Added TTY support in console&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.2.1: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fix: unable to build list of containers due null as a container name&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.2.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Provided console (bash) access to a running container&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;1.1.0: &lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Added possibility to configure a container for an existing image&lt;/li&gt;
+    &lt;/ul&gt;
+    
+  </change-notes>
+  <resource-bundle>resources.DockerBundle</resource-bundle>
+  <extensionPoints>
+    <extensionPoint qualifiedName="com.intellij.docker.dockerClientLibraryLoader" interface="com.intellij.docker.DockerClientLibraryLoader"/>
+  </extensionPoints>
+  <extensions defaultExtensionNs="com.intellij">
+    <remoteServer.type implementation="com.intellij.docker.DockerCloudType"/>
+    <remoteServer.deploymentSource.type implementation="com.intellij.docker.deploymentSource.DockerfileDeploymentSourceType"/>
+    <remoteServer.deploymentSource.type implementation="com.intellij.docker.deploymentSource.DockerImageDeploymentSourceType"/>
+    <remoteServer.deploymentSource.type implementation="com.intellij.docker.deploymentSource.DockerComposeDeploymentSourceType"/>
+    <remoteServer.util.CloudDeploymentRuntimeProvider implementation="com.intellij.docker.DockerDeploymentRuntimeProvider"/>
+    <projectService serviceImplementation="com.intellij.docker.exec.ExecCommandManager"/>
+    <remoteServer.runConfigurationExtension implementation="com.intellij.docker.settings.DockerRunConfigurationExtension"/>
+    <fileTypeFactory implementation="com.intellij.docker.dockerFile.DockerFileTypeFactory"/>
+    <lang.parserDefinition language="Dockerfile" implementationClass="com.intellij.docker.dockerFile.parser.DockerParserDefinition"/>
+    <lang.commenter language="Dockerfile" implementationClass="com.intellij.docker.dockerFile.DockerCommenter"/>
+    <braceMatcher filetype="Dockerfile" implementationClass="com.intellij.docker.dockerFile.DockerPairedBraceMatcher"/>
+    <applicationService serviceImplementation="com.intellij.docker.registry.DockerRegistryManager"/>
+    <applicationConfigurable groupId="build" displayName="Docker Registry" id="DockerRegistry" instance="com.intellij.docker.registry.DockerRegistryListConfigurable"/>
+    <completion.contributor language="Dockerfile" implementationClass="com.intellij.docker.dockerFile.completion.DockerfileCompletionContributor"/>
+    <toolWindow id="Docker" anchor="bottom" icon="DockerIcons.Docker_toolwin" factoryClass="com.intellij.docker.view.DockerToolWindowFactory" conditionClass="com.intellij.docker.view.DockerToolWindowFactory"/>
+    <applicationService serviceImplementation="com.intellij.docker.machine.DockerMachineSettings"/>
+    <applicationConfigurable groupId="tools" instance="com.intellij.docker.machine.DockerMachineConfigurable" id="reference.settingsDialog.application.dockerMachine" key="dockerMachine.name" bundle="resources.DockerBundle"/>
+    <colorSettingsPage implementation="com.intellij.docker.dockerFile.highlighting.highlight.DockerfileColorSettingsPage"/>
+    <postStartupActivity implementation="com.intellij.docker.SuppressResultCallbackTemplateLogging"/>
+  </extensions>
+  <actions>
+    <group id="Docker.RemoteServersViewToolbar">
+      <action id="Docker.RemoteServers.StartContainer" class="com.intellij.docker.action.StartContainerAction"/>
+      <action id="Docker.RemoteServers.StopContainer" class="com.intellij.docker.action.StopContainerAction"/>
+      <action id="Docker.RemoteServers.DeleteContainer" class="com.intellij.docker.action.DeleteContainerAction"/>
+      <action id="Docker.RemoteServers.CreateContainer" class="com.intellij.docker.action.CreateContainerAction"/>
+      <action id="Docker.RemoteServers.DeleteImage" class="com.intellij.docker.action.DeleteImageAction"/>
+      <action id="Docker.RemoteServers.PushImage" class="com.intellij.docker.action.PushImageAction"/>
+      <action id="Docker.RemoteServers.PullImage" class="com.intellij.docker.action.PullImageAction"/>
+      <action id="Docker.RemoteServers.ScaleComposeService" class="com.intellij.docker.action.ComposeScaleAction"/>
+      <action id="Docker.RemoteServers.StartComposeService" class="com.intellij.docker.action.ComposeStartAction"/>
+      <action id="Docker.RemoteServers.StopComposeService" class="com.intellij.docker.action.ComposeStopAction"/>
+      <add-to-group group-id="RemoteServersViewToolbar" anchor="last"/>
+    </group>
+    <group id="Docker.RemoteServersViewPopup">
+      <action id="Docker.RemoteServers.OpenDeploymentBrowser" class="com.intellij.docker.action.OpenBrowserAction"/>
+      <action id="Docker.RemoteServers.CopyImageId" class="com.intellij.docker.action.CopyImageIdAction"/>
+      <action id="Docker.RemoteServers.CopyContainerId" class="com.intellij.docker.action.CopyContainerIdAction"/>
+      <action id="Docker.RemoteServers.CopyContainerImageId" class="com.intellij.docker.action.CopyContainerImageIdAction"/>
+      <action id="Docker.RemoteServers.ShowContainerLog" class="com.intellij.docker.action.ShowLogAction"/>
+      <action id="Docker.RemoteServers.InspectContainer" class="com.intellij.docker.action.InspectContainerAction"/>
+      <action id="Docker.RemoteServers.ShowContainerProcesses" class="com.intellij.docker.action.ShowContainerProcessesAction"/>
+      <action id="Docker.RemoteServers.Attach2Container" class="com.intellij.docker.action.Attach2ContainerAction"/>
+      <action id="Docker.RemoteServers.AttachWebsocket2Container" class="com.intellij.docker.action.AttachWebsocket2ContainerAction"/>
+      <action id="Docker.RemoteServers.ExecInContainer" class="com.intellij.docker.action.ExecInContainerAction"/>
+      <add-to-group group-id="RemoteServersViewPopup" anchor="last"/>
+    </group>
+  </actions>
+  <project-components>
+    <component>
+      <implementation-class>com.intellij.docker.DockerFileDetector</implementation-class>
+    </component>
+    <component>
+      <implementation-class>com.intellij.docker.view.DockerToolWindowManager</implementation-class>
+    </component>
+  </project-components>
+</idea-plugin>

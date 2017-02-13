@@ -1,0 +1,39 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="PyCharm.initialConfigurationShown" value="true" />
+    <property name="toolwindow.stripes.buttons.info.shown" value="true" />
+    <property name="lastTip" value="14" />
+    <property name="Darcula.savedEditorTheme" value="_@user_Twilight" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="KEYMAP" value="terminal&#10;next tab&#10;sort" />
+    <property name="selected.color.option.type" value="CONSOLE_BACKGROUND_KEY" />
+    <property name="ColorChooser.RecentColors" value="0-28-35-255" />
+    <property name="settings.code.style.selected.tab.Python" value="Spaces" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="FileColorsForTabsEnabled" value="true" />
+    <property name="FileColorsForProjectViewEnabled" value="true" />
+    <property name="PACKAGE_FILTER" value="pytest&#10;py.test&#10;tox" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="RunConfigurable.dividerProportion" value="0.24291116" />
+    <property name="PythonUnitTestRunnerSupport.hideIgnoredTests" value="false" />
+    <property name="PythonUnitTestRunnerSupport.sortTestsAlphabetically" value="true" />
+    <property name="PythonUnitTestRunnerSupport.hidePassedTests" value="false" />
+    <property name="PythonUnitTestRunner.Splitter.Proportion" value="0.22689939" />
+    <property name="PLUGIN_FILTER" value="rpm&#10;spec&#10;makefile&#10;make&#10;sort" />
+    <property name="ideavim.statistics.timestamp" value="1486999922888" />
+    <property name="INSPECTION_FILTER_HISTORY" value="space&#10;pep" />
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="PythonUnitTestRunnerSupport.selectFirtsDefect" value="true" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/git/querafi&#10;/home/jpuellmann/git/powerline-shell" />
+    <property name="OpenOrAttachDialog.OpenMode" value="replace" />
+    <property name="SplitFileEditor.Proportion" value="0.61165047" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.43847072" />
+  </component>
+</application>

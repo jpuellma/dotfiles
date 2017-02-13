@@ -1,0 +1,54 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/git/querafi" />
+        <option value="$USER_HOME$/PycharmProjects/querafi" />
+        <option value="$USER_HOME$/git/powerline-shell" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/git/querafi" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/git/querafi" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/PycharmProjects/querafi">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-163.10154.50" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1486654620537" />
+              <option name="buildTimestamp" value="1482944695875" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/powerline-shell">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-163.10154.50" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1486395972645" />
+              <option name="buildTimestamp" value="1482944692109" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/git/querafi">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PC-163.10154.50" />
+              <option name="productionCode" value="PC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1487007142695" />
+              <option name="buildTimestamp" value="1482944657917" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>
