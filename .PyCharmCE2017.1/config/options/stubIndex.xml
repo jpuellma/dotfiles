@@ -1,0 +1,37 @@
+<application>
+  <component name="FileBasedIndex">
+    <option name="registeredIndices">
+      <list>
+        <option value="bash.scriptCommandReference" />
+        <option value="ini.property.key" />
+        <option value="bash.script.name" />
+        <option value="bash.includers" />
+        <option value="bash.var" />
+        <option value="bash.function.name" />
+        <option value="bash.vardef" />
+        <option value="bash.included" />
+        <option value="Py.class.attributes" />
+        <option value="Python.Decorator" />
+        <option value="Py.instanceAttribute.name" />
+        <option value="Py.variable.shortName" />
+        <option value="Py.class.super" />
+        <option value="Py.function.shortName" />
+        <option value="Py.class.shortNameInsensitive" />
+        <option value="Py.class.shortName" />
+        <option value="dom.elementClass" />
+        <option value="dom.namespaceKey" />
+        <option value="puppet.node" />
+        <option value="puppet.function" />
+        <option value="puppet.resource.by.type" />
+        <option value="puppet.resource" />
+        <option value="puppet.type" />
+        <option value="puppet.class.instantiation" />
+        <option value="puppet.subclass" />
+        <option value="puppet.class" />
+        <option value="puppet.namespace" />
+        <option value="puppet.top.variable" />
+        <option value="puppet.variable" />
+      </list>
+    </option>
+  </component>
+</application>

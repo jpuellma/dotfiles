@@ -1,0 +1,16 @@
+<idea-plugin>
+
+  <extensionPoints>
+    <extensionPoint qualifiedName="com.intellij.docker.remote.dockerCredentialsEditorLanguageContribution"
+                    interface="com.intellij.docker.remote.DockerCredentialsEditorLanguageContribution"/>
+    <extensionPoint qualifiedName="com.intellij.docker.remote.dockerComposeCredentialsEditorLanguageContribution"
+                    interface="com.intellij.docker.remote.DockerComposeCredentialsEditorLanguageContribution"/>
+  </extensionPoints>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <remote.credentialsType implementation="com.intellij.docker.remote.DockerCredentialsType"/>
+    <remote.credentialsType implementation="com.intellij.docker.remote.DockerComposeCredentialsType"/>
+
+    <applicationService serviceImplementation="com.intellij.docker.compose.DockerComposeProjectService"/>
+  </extensions>
+</idea-plugin>

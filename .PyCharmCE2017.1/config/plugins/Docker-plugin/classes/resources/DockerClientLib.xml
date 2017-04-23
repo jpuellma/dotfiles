@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artifacts>
+  <artifact version="1.0.0" name="Docker client 1.0.0">
+    <item name="docker-java-3.0.0.jar"
+          url="http://central.maven.org/maven2/com/github/docker-java/docker-java/3.0.0/docker-java-3.0.0.jar" md5=""/>
+
+    <item name="jackson-jaxrs-json-provider-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.6.4/jackson-jaxrs-json-provider-2.6.4.jar"/>
+    <item name="jackson-core-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.6.4/jackson-core-2.6.4.jar"/>
+    <item name="jackson-databind-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.6.4/jackson-databind-2.6.4.jar"/>
+    <item name="jackson-annotations-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.6.4/jackson-annotations-2.6.4.jar"/>
+    <item name="jackson-module-jaxb-annotations-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.6.4/jackson-module-jaxb-annotations-2.6.4.jar"/>
+    <item name="jackson-jaxrs-base-2.6.4.jar"
+          url="http://central.maven.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.6.4/jackson-jaxrs-base-2.6.4.jar"/>
+    <item name="jersey-apache-connector-2.11.jar"
+          url="http://central.maven.org/maven2/org/glassfish/jersey/connectors/jersey-apache-connector/2.11/jersey-apache-connector-2.11.jar"/>
+    <item name="httpclient-4.3.1.jar"
+          url="http://central.maven.org/maven2/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar"/>
+    <item name="httpcore-4.3.jar"
+          url="http://central.maven.org/maven2/org/apache/httpcomponents/httpcore/4.3/httpcore-4.3.jar"/>
+    <item name="commons-logging-1.1.3.jar"
+          url="http://central.maven.org/maven2/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+    <item name="jersey-common-2.11.jar"
+          url="http://central.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.11/jersey-common-2.11.jar"/>
+    <item name="javax.annotation-api-1.2.jar"
+          url="http://central.maven.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar"/>
+    <item name="jersey-guava-2.11.jar"
+          url="http://central.maven.org/maven2/org/glassfish/jersey/bundles/repackaged/jersey-guava/2.11/jersey-guava-2.11.jar"/>
+    <item name="osgi-resource-locator-1.0.1.jar"
+          url="http://central.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.1/osgi-resource-locator-1.0.1.jar"/>
+    <item name="javax.ws.rs-api-2.0.jar" url="http://central.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.0/javax.ws.rs-api-2.0.jar"/>
+    <item name="jersey-client-2.11.jar"
+          url="http://central.maven.org/maven2/org/glassfish/jersey/core/jersey-client/2.11/jersey-client-2.11.jar"/>
+    <item name="hk2-api-2.3.0-b05.jar" url="http://central.maven.org/maven2/org/glassfish/hk2/hk2-api/2.3.0-b05/hk2-api-2.3.0-b05.jar"/>
+    <item name="hk2-utils-2.3.0-b05.jar"
+          url="http://central.maven.org/maven2/org/glassfish/hk2/hk2-utils/2.3.0-b05/hk2-utils-2.3.0-b05.jar"/>
+    <item name="aopalliance-repackaged-2.3.0-b05.jar"
+          url="http://central.maven.org/maven2/org/glassfish/hk2/external/aopalliance-repackaged/2.3.0-b05/aopalliance-repackaged-2.3.0-b05.jar"/>
+    <item name="javax.inject-2.3.0-b05.jar"
+          url="http://central.maven.org/maven2/org/glassfish/hk2/external/javax.inject/2.3.0-b05/javax.inject-2.3.0-b05.jar"/>
+    <item name="hk2-locator-2.3.0-b05.jar"
+          url="http://central.maven.org/maven2/org/glassfish/hk2/hk2-locator/2.3.0-b05/hk2-locator-2.3.0-b05.jar"/>
+    <item name="javassist-3.18.1-GA.jar" url="http://central.maven.org/maven2/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+    <item name="unix-socket-factory-2015-01-27T15-02-14.jar"
+          url="http://central.maven.org/maven2/de/gesellix/unix-socket-factory/2015-01-27T15-02-14/unix-socket-factory-2015-01-27T15-02-14.jar"/>
+    <item name="commons-compress-1.5.jar"
+          url="http://central.maven.org/maven2/org/apache/commons/commons-compress/1.5/commons-compress-1.5.jar"/>
+    <item name="xz-1.2.jar" url="http://central.maven.org/maven2/org/tukaani/xz/1.2/xz-1.2.jar"/>
+    <item name="commons-codec-1.8.jar" url="http://central.maven.org/maven2/commons-codec/commons-codec/1.8/commons-codec-1.8.jar"/>
+    <item name="commons-lang-2.6.jar" url="http://central.maven.org/maven2/commons-lang/commons-lang/2.6/commons-lang-2.6.jar"/>
+    <item name="commons-io-2.3.jar" url="http://central.maven.org/maven2/commons-io/commons-io/2.3/commons-io-2.3.jar"/>
+
+    <item name="slf4j-api-1.7.5.jar" url="http://central.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+    <item name="jcl-over-slf4j-1.7.12.jar" url="http://central.maven.org/maven2/org/slf4j/jcl-over-slf4j/1.7.12/jcl-over-slf4j-1.7.12.jar"/>
+    <item name="guava-18.0.jar" url="http://central.maven.org/maven2/com/google/guava/guava/18.0/guava-18.0.jar"/>
+    <item name="bcpkix-jdk15on-1.51.jar"
+          url="http://central.maven.org/maven2/org/bouncycastle/bcpkix-jdk15on/1.51/bcpkix-jdk15on-1.51.jar"/>
+    <item name="bcprov-jdk15on-1.51.jar"
+          url="http://central.maven.org/maven2/org/bouncycastle/bcprov-jdk15on/1.51/bcprov-jdk15on-1.51.jar"/>
+
+    <item name="javax.websocket-client-api-1.1.jar"
+          url="http://central.maven.org/maven2/javax/websocket/javax.websocket-client-api/1.1/javax.websocket-client-api-1.1.jar"/>
+    <item name="tomcat-websocket-8.0.22.jar"
+          url="http://central.maven.org/maven2/org/apache/tomcat/tomcat-websocket/8.0.22/tomcat-websocket-8.0.22.jar"/>
+    <item name="tomcat-util-8.0.22.jar"
+          url="http://central.maven.org/maven2/org/apache/tomcat/tomcat-util/8.0.22/tomcat-util-8.0.22.jar"/>
+    <item name="tomcat-juli-8.0.22.jar"
+          url="http://central.maven.org/maven2/org/apache/tomcat/tomcat-juli/8.0.22/tomcat-juli-8.0.22.jar"/>
+
+    <item name="commons-cli-1.3.1.jar"
+          url="http://central.maven.org/maven2/commons-cli/commons-cli/1.3.1/commons-cli-1.3.1.jar"/>
+    <item name="snakeyaml-1.15.jar" url="http://central.maven.org/maven2/org/yaml/snakeyaml/1.15/snakeyaml-1.15.jar"/>
+
+    <item name="netty-all-4.1.7.Final-SNAPSHOT.jar"
+          url="http://download.jetbrains.com/idea/j2ee_libs/clouds/docker/2.5.0/netty-all-4.1.7.Final-SNAPSHOT.jar"/>
+    <item name="unisockets-core_2.11-0.1.0.jar"
+          url="http://central.maven.org/maven2/me/lessis/unisockets-core_2.11/0.1.0/unisockets-core_2.11-0.1.0.jar"/>
+    <item name="jnr-unixsocket-0.14.jar"
+          url="http://central.maven.org/maven2/com/github/jnr/jnr-unixsocket/0.14/jnr-unixsocket-0.14.jar"/>
+
+  </artifact>
+</artifacts>

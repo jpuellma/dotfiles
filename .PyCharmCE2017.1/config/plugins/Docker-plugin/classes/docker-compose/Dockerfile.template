@@ -1,0 +1,11 @@
+FROM docker/compose:$tag
+
+LABEL com.jetbrains.docker.helper.image=
+LABEL com.jetbrains.docker.compose.version=$version
+LABEL com.jetbrains.docker.compose.custom-build=$customBuild
+
+RUN mv /usr/bin/docker-compose /usr/bin/docker-compose-original
+COPY usr/bin/ /usr/bin/
+RUN chmod 755 /usr/bin/docker-compose
+
+ENV PYTHONUNBUFFERED=1

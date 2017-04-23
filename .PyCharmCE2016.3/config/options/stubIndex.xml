@@ -2,6 +2,10 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="bash.includers" />
+        <option value="bash.included" />
+        <option value="bash.script.name" />
+        <option value="bash.function.name" />
         <option value="ini.property.key" />
         <option value="Py.class.attributes" />
         <option value="Python.Decorator" />
@@ -13,6 +17,9 @@
         <option value="Py.class.shortName" />
         <option value="dom.elementClass" />
         <option value="dom.namespaceKey" />
+        <option value="bash.var" />
+        <option value="bash.vardef" />
+        <option value="bash.scriptCommandReference" />
       </list>
     </option>
   </component>

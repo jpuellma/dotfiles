@@ -1,0 +1,8 @@
+#!/usr/bin/python
+
+# Apply patches
+execfile('/usr/bin/start_container_patch.py')
+execfile('/usr/bin/open_file_patch.py')
+
+# Execute original docker-compose script
+execfile('/usr/bin/docker-compose-original')

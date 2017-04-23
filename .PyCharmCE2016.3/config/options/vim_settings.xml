@@ -9,14 +9,40 @@
         <mark key="^" line="2" column="78" />
         <mark key="." line="7" column="38" />
       </file>
-      <file name="/Python Console" timestamp="1486669197884">
+      <file name="/Python Console" timestamp="1489180335560">
         <mark key="[" line="0" column="0" />
-        <mark key="." line="0" column="56" />
+        <mark key="]" line="2" column="16" />
+        <mark key="." line="2" column="16" />
+        <mark key="^" line="2" column="16" />
       </file>
-      <file name="/a.dummy" timestamp="1487001395631">
+      <file name="$USER_HOME$/git/make-demo/outline.txt" timestamp="1487171429694">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/spacewalk-utils/swutil-fix-channels" timestamp="1488233935085">
+        <mark key="[" line="61" column="35" />
+        <mark key="]" line="61" column="39" />
+        <mark key="." line="61" column="39" />
+        <mark key="^" line="61" column="39" />
+      </file>
+      <file name="/fragment.py" timestamp="1489180414270">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/a.dummy" timestamp="1489178916454">
         <mark key="[" line="0" column="0" />
         <mark key="]" line="0" column="12" />
         <mark key="." line="0" column="12" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/infra-image-build/bin/nimbul_add_image.py" timestamp="1488901549840">
+        <mark key="[" line="144" column="78" />
+        <mark key="]" line="145" column="7" />
+        <mark key="." line="145" column="11" />
+        <mark key="^" line="145" column="7" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/bin/nimbul_api_client.py" timestamp="1488924720909">
+        <mark key="[" line="8" column="8" />
+        <mark key="]" line="8" column="8" />
+        <mark key="^" line="8" column="8" />
+        <mark key="." line="8" column="8" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/querafi/querafi.py" timestamp="1486579474154">
         <mark key="'" line="342" column="16" />
@@ -49,12 +75,36 @@
         <mark key="^" line="1" column="12" />
         <mark key="." line="1" column="12" />
       </file>
-      <file name="$USER_HOME$/git/querafi/querafi/__init__.py" timestamp="1486664458642">
+      <file name="$USER_HOME$/git/github.com/powerline-shell/powerline-shell.py" timestamp="1488551704590">
+        <mark key="'" line="446" column="12" />
+        <mark key="[" line="79" column="33" />
+        <mark key="]" line="79" column="33" />
+        <mark key="." line="79" column="33" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/.gitignore" timestamp="1489436973850">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="6" />
+        <mark key="^" line="10" column="6" />
+        <mark key="." line="10" column="6" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/powerline-shell/config.py" timestamp="1488551321557">
+        <mark key="[" line="27" column="8" />
+        <mark key="]" line="27" column="8" />
+        <mark key="." line="27" column="8" />
+        <mark key="^" line="49" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" timestamp="1489178822989">
+        <mark key="'" line="108" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/querafi/querafi/__init__.py" timestamp="1487359782389">
         <mark key="[" line="1" column="19" />
         <mark key="]" line="1" column="20" />
         <mark key="." line="1" column="20" />
       </file>
-      <file name="$USER_HOME$/git/querafi/querafi/venafi_api_client.py" timestamp="1486669976353">
+      <file name="$USER_HOME$/git/infra-image-build/centos-6/Makefile" timestamp="1489693398027">
+        <mark key="'" line="11" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/querafi/querafi/venafi_api_client.py" timestamp="1487885800434">
         <mark key="[" line="13" column="0" />
         <mark key="]" line="20" column="11" />
         <mark key="." line="20" column="11" />
@@ -72,11 +122,21 @@
         <mark key="." line="46" column="23" />
         <mark key="^" line="46" column="23" />
       </file>
+      <file name="/Dummy.txt" timestamp="1489693088870">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/centos-7/Makefile" timestamp="1490387884241" />
       <file name="$USER_HOME$/PycharmProjects/querafi/MANIFEST.in" timestamp="1486662754271">
         <mark key="[" line="0" column="19" />
         <mark key="]" line="1" column="23" />
         <mark key="^" line="1" column="23" />
         <mark key="." line="1" column="23" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" timestamp="1490118329124">
+        <mark key="'" line="198" column="6" />
+        <mark key="[" line="623" column="0" />
+        <mark key="]" line="623" column="0" />
+        <mark key="." line="623" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing" timestamp="1486169126477">
         <mark key="'" line="16" column="29" />
@@ -91,6 +151,15 @@
         <mark key="]" line="5" column="32" />
         <mark key="^" line="129" column="25" />
         <mark key="." line="6" column="0" />
+      </file>
+      <file name="/a.regexp" timestamp="1487262323159">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/centos-7/template.json" timestamp="1490388452490">
+        <mark key="[" line="4" column="39" />
+        <mark key="]" line="4" column="43" />
+        <mark key="." line="4" column="43" />
+        <mark key="^" line="4" column="43" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/tests/test_functional.py" timestamp="1486398077229">
         <mark key="'" line="0" column="0" />
@@ -113,12 +182,31 @@
         <mark key="." line="26" column="42" />
         <mark key="^" line="26" column="42" />
       </file>
+      <file name="$USER_HOME$/git/infra-image-build/bin/split_logs.py" timestamp="1490119487989">
+        <mark key="[" line="45" column="0" />
+        <mark key="]" line="45" column="0" />
+        <mark key="." line="45" column="0" />
+      </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" timestamp="1486166963260">
         <mark key="'" line="17" column="0" />
         <mark key="[" line="17" column="0" />
         <mark key="]" line="17" column="0" />
         <mark key="^" line="7" column="45" />
         <mark key="." line="17" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/spacewalk-utils/maps.ini" timestamp="1487274250039">
+        <mark key="'" line="198" column="64" />
+        <mark key="[" line="195" column="0" />
+        <mark key="]" line="195" column="0" />
+        <mark key="^" line="171" column="28" />
+        <mark key="." line="195" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/powerline-shell/segments/cwd3.py" timestamp="1488551448467">
+        <mark key="'" line="88" column="18" />
+        <mark key="[" line="47" column="11" />
+        <mark key="]" line="54" column="28" />
+        <mark key="." line="54" column="28" />
+        <mark key="^" line="54" column="69" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/tests/test_querafi_utils.py" timestamp="1486168962373">
         <mark key="[" line="41" column="0" />
@@ -132,12 +220,24 @@
         <mark key="]" line="84" column="0" />
         <mark key="." line="84" column="0" />
       </file>
-      <file name="$USER_HOME$/git/querafi/querafi/querafi.py" timestamp="1487000409824">
-        <mark key="'" line="19" column="0" />
-        <mark key="[" line="329" column="0" />
-        <mark key="]" line="329" column="0" />
-        <mark key="." line="329" column="0" />
-        <mark key="^" line="11" column="19" />
+      <file name="$USER_HOME$/git/make-demo/Makefile" timestamp="1487179027124">
+        <mark key="'" line="51" column="14" />
+        <mark key="[" line="49" column="0" />
+        <mark key="]" line="49" column="0" />
+        <mark key="." line="49" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/querafi/querafi/querafi.py" timestamp="1489616564935">
+        <mark key="'" line="117" column="16" />
+        <mark key="[" line="610" column="0" />
+        <mark key="]" line="610" column="34" />
+      </file>
+      <file name="/Clipboard.txt" timestamp="1488901638586">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/infra-image-build/bin/nimbul_imagetest.py" timestamp="1489178703531">
+        <mark key="[" line="44" column="0" />
+        <mark key="]" line="50" column="0" />
+        <mark key="." line="44" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/.drone.yml" timestamp="1486417974525">
         <mark key="[" line="12" column="0" />
@@ -147,152 +247,192 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="10" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="11" column="2" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="13" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="14" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="15" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="16" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/venafi_api_client.py" />
-      <jump line="23" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="18" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="35" column="26" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="39" column="9" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="40" column="8" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="42" column="4" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="38" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="48" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="53" column="24" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="58" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="68" column="4" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_argparse.py" />
-      <jump line="8" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing" />
-      <jump line="11" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing" />
-      <jump line="13" column="9" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing" />
-      <jump line="15" column="29" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing" />
-      <jump line="22" column="8" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing.py" />
-      <jump line="24" column="4" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing.py" />
-      <jump line="33" column="8" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retrieved_certificate_processing.py" />
-      <jump line="46" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_querafi_utils.py" />
-      <jump line="8" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="9" column="32" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="48" column="13" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="107" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="7" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="26" column="4" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="125" column="8" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="111" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="28" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="47" column="8" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="27" column="0" filename="$USER_HOME$/PycharmProjects/querafi/old_unittests/test_retry_retrieve.py" />
-      <jump line="109" column="8" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retry_retrieve.py" />
-      <jump line="111" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_retry_retrieve.py" />
-      <jump line="10" column="20" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_functional.py" />
-      <jump line="20" column="19" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_functional.py" />
-      <jump line="15" column="21" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_functional.py" />
-      <jump line="0" column="0" filename="$USER_HOME$/PycharmProjects/querafi/tests/test_functional.py" />
-      <jump line="7" column="36" filename="$USER_HOME$/PycharmProjects/querafi/tox.ini" />
-      <jump line="12" column="7" filename="$USER_HOME$/git/querafi/.drone.yml" />
-      <jump line="25" column="0" filename="$USER_HOME$/PycharmProjects/querafi/README.md" />
-      <jump line="29" column="0" filename="$USER_HOME$/PycharmProjects/querafi/README.md" />
-      <jump line="63" column="7" filename="$USER_HOME$/PycharmProjects/querafi/README.md" />
-      <jump line="9" column="41" filename="$USER_HOME$/PycharmProjects/querafi/tox.ini" />
-      <jump line="1" column="17" filename="$USER_HOME$/PycharmProjects/querafi/tox.ini" />
-      <jump line="122" column="0" filename="$USER_HOME$/PycharmProjects/querafi/querafi/querafi.py" />
-      <jump line="179" column="37" filename="$USER_HOME$/PycharmProjects/querafi/querafi/querafi.py" />
-      <jump line="342" column="16" filename="$USER_HOME$/PycharmProjects/querafi/querafi/querafi.py" />
-      <jump line="18" column="4" filename="$USER_HOME$/git/querafi/Makefile" />
-      <jump line="25" column="3" filename="$USER_HOME$/git/querafi/Makefile" />
-      <jump line="31" column="0" filename="$USER_HOME$/git/querafi/querafi/querafi.py" />
-      <jump line="17" column="0" filename="$USER_HOME$/git/querafi/querafi/querafi.py" />
-      <jump line="143" column="27" filename="$USER_HOME$/git/querafi/README.md" />
-      <jump line="85" column="8" filename="$USER_HOME$/git/querafi/README.md" />
-      <jump line="145" column="0" filename="$USER_HOME$/git/querafi/README.md" />
-      <jump line="22" column="0" filename="$USER_HOME$/git/querafi/README.md" />
-      <jump line="79" column="0" filename="$USER_HOME$/git/querafi/README.md" />
-      <jump line="19" column="0" filename="$USER_HOME$/git/querafi/querafi/querafi.py" />
+      <jump line="186" column="12" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="501" column="11" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="230" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="382" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="404" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="434" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="0" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="37" column="16" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="108" column="15" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="188" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="211" column="32" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="222" column="16" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="293" column="25" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="106" column="3" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="113" column="45" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="236" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="331" column="6" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="390" column="5" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="401" column="20" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="400" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="421" column="55" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="423" column="11" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="422" column="20" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="456" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="499" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="153" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="155" column="32" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="158" column="46" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="101" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_imagetest.py" />
+      <jump line="2" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="6" column="15" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="8" column="15" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="10" column="15" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="29" column="16" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="37" column="20" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="88" column="24" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="166" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="33" column="13" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="91" column="9" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="215" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="5" column="0" filename="$USER_HOME$/git/infra-image-build/Makefile" />
+      <jump line="61" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="7" column="16" filename="$USER_HOME$/git/infra-image-build/Makefile" />
+      <jump line="36" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="33" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="67" column="21" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="68" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="60" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="35" column="33" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="95" column="59" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="31" column="36" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="55" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="160" column="9" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="14" column="2" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="572" column="15" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="641" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="642" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="643" column="4" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="645" column="14" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="15" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="546" column="11" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="548" column="51" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="553" column="33" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="547" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="563" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="186" column="13" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="195" column="43" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="593" column="29" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="606" column="20" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="616" column="36" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="620" column="57" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="622" column="46" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="644" column="22" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="561" column="13" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="483" column="66" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="612" column="29" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="605" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="608" column="29" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="610" column="27" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="251" column="30" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="619" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="117" column="16" filename="$USER_HOME$/git/querafi/querafi/querafi.py" />
+      <jump line="506" column="0" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="109" column="31" filename="$USER_HOME$/git/infra-image-build/centos-6/Makefile" />
+      <jump line="24" column="0" filename="$USER_HOME$/git/infra-image-build/centos-6/Makefile" />
+      <jump line="25" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="96" column="31" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="24" column="0" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="12" column="0" filename="$USER_HOME$/git/infra-image-build/centos-6/Makefile" />
+      <jump line="97" column="0" filename="$USER_HOME$/git/infra-image-build/centos-6/Makefile" />
+      <jump line="91" column="27" filename="$USER_HOME$/git/infra-image-build/bin/split_logs.py" />
+      <jump line="75" column="0" filename="$USER_HOME$/git/infra-image-build/bin/split_logs.py" />
+      <jump line="78" column="0" filename="$USER_HOME$/git/infra-image-build/bin/split_logs.py" />
+      <jump line="35" column="0" filename="$USER_HOME$/git/infra-image-build/bin/split_logs.py" />
+      <jump line="60" column="0" filename="$USER_HOME$/git/infra-image-build/bin/split_logs.py" />
+      <jump line="106" column="10" filename="$USER_HOME$/git/infra-image-build/centos-7/Makefile" />
+      <jump line="11" column="0" filename="$USER_HOME$/git/infra-image-build/centos-6/Makefile" />
+      <jump line="618" column="14" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
+      <jump line="198" column="6" filename="$USER_HOME$/git/infra-image-build/bin/nimbul_test_image.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">PT09PT09PQojQGNsaV9jb21tYW5kCiNkZWYgc3VibWl0X2Nzcl9jb21tYW5kKGFyZ3MpOgo+Pj4+Pj4+IFJlbW92ZSBzdWJtaXQtY3NyIHN1YmNvbW1hbmQuOnF1ZXJhZmkucHkK</text>
+      <register name="&quot;" type="4">
+        <text>icro</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>icro</text>
       </register>
       <register name="/" type="4">
-        <text>===</text>
+        <text>log.error</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">Y2ZnX3BhdGggPSAnLycuam9pbigoJ2NvbmZpZycsICdjb25maWcueWFtbCcpKQp3aXRoICBwa2dfcmVzb3VyY2VzLnJlc291cmNlX3N0cmVhbShfX25hbWVfXywgY2ZnX3BhdGgpIGFzIGNvbmZpZ195YW1sOgo=</text>
+        <text encoding="base64">ICAgIDpwYXJhbSBmaWxlbmFtZTogIG5hbWUgb2YgZmlsZQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">PT09PT09PQojQGNsaV9jb21tYW5kCiNkZWYgc3VibWl0X2Nzcl9jb21tYW5kKGFyZ3MpOgo+Pj4+Pj4+IFJlbW92ZSBzdWJtaXQtY3NyIHN1YmNvbW1hbmQuOnF1ZXJhZmkucHkK</text>
+        <text encoding="base64">ICAgICAgICB0eXBlPSdmaWxlJywK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">PDw8PDw8PCA3MmQxNWJmNWM0M2ZiNjFmYzUzYmQxZDNiNTRjY2U5YWE4NTA4YzI5OnF1ZXJhZmkvcXVlcmFmaS5weQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">PT09PT09PQojZnJvbSBjcnlwdG9ncmFwaHkgaW1wb3J0IHg1MDkKI2Zyb20gY3J5cHRvZ3JhcGh5Lmhhem1hdC5iYWNrZW5kcyBpbXBvcnQgZGVmYXVsdF9iYWNrZW5kIGFzIGNyeXB0b19iYWNrZW5kCj4+Pj4+Pj4gUmVtb3ZlIHN1Ym1pdC1jc3Igc3ViY29tbWFuZC46cXVlcmFmaS5weQo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">PDw8PDw8PCA3MmQxNWJmNWM0M2ZiNjFmYzUzYmQxZDNiNTRjY2U5YWE4NTA4YzI5OnF1ZXJhZmkvcXVlcmFmaS5weQo=</text>
+        <text encoding="base64">ZGVmIG15X2xvZ19tZXRob2QoZmlsZW5hbWUsIHN0cmluZywgc29tZWludGVnZXIsIGRlYnVnPU5vbmUpOgogICAgIiIiCiAgICAKICAgIDpwYXJhbSBmaWxlbmFtZTogbmFtZSBvZiBmaWxlCiAgICA6dHlwZSAgZmlsZW5hbWU6IHN0cgogICAgOnBhcmFtIHN0cmluZzogIHRoaW5nIHRvIGRvCiAgICA6cGFyYW0gc29tZWludGVnZXI6ICBudW1iZXIKICAgIDpwYXJhbSBkZWJ1ZzogIHRydWUgb3IgZmFsc2UKICAgIDpyZXR1cm46ICBvdXRwdXQKICAgICIiIgogICAgCiAgICBhID0gZmlsZW5hbWUgKyAnNycK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">PT09PT09PQogIHthdXRoLHJlcXVlc3QtY3NyLHJldHJpZXZlLGdldC1wZXJtcyxncmFudC1wZXJtc30KPj4+Pj4+PiBSZW1vdmUgc3VibWl0LWNzciBzdWJjb21tYW5kLgo=</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">PDw8PDw8PCA3MmQxNWJmNWM0M2ZiNjFmYzUzYmQxZDNiNTRjY2U5YWE4NTA4YzI5Cg==</text>
+        <text encoding="base64">ZGVmIGRvX2xvZ19zdHVmZigpOgogICAgYSA9ICdiJwoK</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">PT09PT09PQouL3F1ZXJhZmkucHkgLWggICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKdXNhZ2U6IHF1ZXJhZmkgWy1oXSBbLXZdCiAgICAgICAgICAgICAgIHthdXRoLHJlcXVlc3QtY3NyLHJldHJpZXZlLGdldC1wZXJtcyxncmFudC1wZXJtc30KICAgICAgICAgICAgICAgLi4uCj4+Pj4+Pj4gUmVtb3ZlIHN1Ym1pdC1jc3Igc3ViY29tbWFuZC4K</text>
+        <text encoding="base64">ICAgIG1zZyArPSBzLmdldCgnaW5zdGFuY2VfY29uZmlndXJhdGlvbl9uYW1lJykgKyAnLCAnICsgJ2Fhc2RmYXNkZnNhZGZhc2RmJyArICdhc2RmYXNkZmFzZGYnCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">PDw8PDw8PCA3MmQxNWJmNWM0M2ZiNjFmYzUzYmQxZDNiNTRjY2U5YWE4NTA4YzI5Cg==</text>
+        <text encoding="base64">ICAgIGxvZy5kZWJ1ZygnU3BsaXR0aW5nIGxvZyAlcyB3aXRoIHN0cmluZ3MgJXMuJyAlIChsb2dmaWxlLCBzdHJpbmdzKSkK</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">PT09PT09PQo+Pj4+Pj4+IFJlbW92ZSBzdWJtaXQtY3NyIHN1YmNvbW1hbmQuCg==</text>
+        <text encoding="base64">ICAgIHBwcmludChhcmdzKQogICAgIyBwcHJpbnQobG9nZmlsZSkKICAgICMgcHJpbnQgJ3N0cmluZ3M6JwogICAgIyBwcHJpbnQoc3RyaW5ncykK</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zb3J0</text>
       </register>
     </registers>
     <search>
-      <last-search>===</last-search>
+      <last-search>log.error</last-search>
       <last-offset />
-      <last-pattern>===</last-pattern>
-      <last-replace />
-      <last-substitute>self.</last-substitute>
+      <last-pattern>log.error</last-pattern>
+      <last-replace encoding="base64">OnR5cGU6IA==</last-replace>
+      <last-substitute encoding="base64">OnR5cGUgIA==</last-substitute>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
       <history-search>
-        <entry>retr</entry>
-        <entry>get</entry>
-        <entry>self</entry>
-        <entry>sself)</entry>
-        <entry>self):</entry>
-        <entry>self.</entry>
-        <entry>SeUp</entry>
-        <entry>assertEqual</entry>
-        <entry>EE</entry>
-        <entry>E</entry>
-        <entry>6</entry>
-        <entry>is</entry>
-        <entry encoding="base64">ICA=</entry>
-        <entry>re</entry>
-        <entry>27</entry>
-        <entry>unpack</entry>
-        <entry>load</entry>
-        <entry>bd</entry>
-        <entry>asc</entry>
-        <entry>===</entry>
+        <entry>pu</entry>
+        <entry>in</entry>
+        <entry>cl</entry>
+        <entry>+</entry>
+        <entry>Total cluster con</entry>
+        <entry>emp</entry>
+        <entry>time</entry>
+        <entry>mo</entry>
+        <entry>list</entry>
+        <entry>_list</entry>
+        <entry>succeeded</entry>
+        <entry>cleaned_up</entry>
+        <entry>inst</entry>
+        <entry encoding="base64">TGlzdCBvZiA=</entry>
+        <entry>terminations</entry>
+        <entry>warning</entry>
+        <entry>Su</entry>
+        <entry>DEFAULT</entry>
+        <entry>only</entry>
+        <entry>log.error</entry>
       </history-search>
       <history-cmd>
         <entry>9</entry>
         <entry>%s/self):/):</entry>
         <entry>$s/self.//</entry>
         <entry>%s/self.//</entry>
+        <entry>q!</entry>
+        <entry>7</entry>
+        <entry encoding="base64">JzwsJz5zb2lydA==</entry>
+        <entry>%s/:type  /:type: /g</entry>
         <entry>w</entry>
         <entry encoding="base64">JzwsJz5zb3J0</entry>
       </history-cmd>
@@ -329,6 +469,9 @@
       </shortcut-conflict>
       <shortcut-conflict owner="vim">
         <text>ctrl pressed R</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed W</text>
       </shortcut-conflict>
     </shortcut-conflicts>
   </component>
