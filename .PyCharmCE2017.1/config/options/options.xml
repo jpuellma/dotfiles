@@ -27,7 +27,7 @@
     <property name="PythonUnitTestRunnerSupport.hidePassedTests" value="false" />
     <property name="PythonUnitTestRunner.Splitter.Proportion" value="0.22689939" />
     <property name="PLUGIN_FILTER" value="rest&#10;html&#10;kickstart&#10;ruby&#10;Vagrantfile" />
-    <property name="ideavim.statistics.timestamp" value="1492956612600" />
+    <property name="ideavim.statistics.timestamp" value="1493043247149" />
     <property name="INSPECTION_FILTER_HISTORY" value="space&#10;pep" />
     <property name="Copy.OpenInEditor" value="true" />
     <property name="PythonUnitTestRunnerSupport.selectFirtsDefect" value="true" />
@@ -36,7 +36,6 @@
     <property name="SplitFileEditor.Proportion" value="0.48535937" />
     <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.43847072" />
     <property name="LAST_INJECTED_LANGUAGE" value="TEXT" />
-    <property name="file.gist.reindex.count" value="6010" />
-    <property name="power.save.mode" value="true" />
+    <property name="file.gist.reindex.count" value="6183" />
   </component>
 </application>

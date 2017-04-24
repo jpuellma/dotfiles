@@ -9,9 +9,11 @@
         <classPath>
           <root type="composite">
             <root type="simple" url="file:///usr/lib/python2.7/site-packages/powerline_status-2.1.dev9999+git.1fad6f4b52e4be10f448b0e539ba61734da400fd-py2.7.egg" />
+            <root type="simple" url="jar:///usr/lib/python2.7/site-packages/gcalcli-3.4.0-py2.7.egg!/" />
             <root type="simple" url="file:///usr/lib64/python2.7" />
             <root type="simple" url="file:///usr/lib64/python2.7/plat-linux2" />
             <root type="simple" url="file:///usr/lib64/python2.7/lib-dynload" />
+            <root type="simple" url="file://$USER_HOME$/.local/lib/python2.7/site-packages" />
             <root type="simple" url="file:///usr/lib64/python2.7/site-packages" />
             <root type="simple" url="file:///usr/lib64/python2.7/site-packages/gst-0.10" />
             <root type="simple" url="file:///usr/lib64/python2.7/site-packages/gtk-2.0" />

@@ -3,12 +3,6 @@
     <state version="4" enabled="true" />
     <globalmarks />
     <filemarks>
-      <file name="$USER_HOME$/git/querafi/querafi/config/config.yaml" timestamp="1486671307083">
-        <mark key="[" line="5" column="0" />
-        <mark key="]" line="7" column="38" />
-        <mark key="^" line="2" column="78" />
-        <mark key="." line="7" column="38" />
-      </file>
       <file name="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap vpc.sh" timestamp="1492705620321">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="14" column="0" />
@@ -22,23 +16,11 @@
         <mark key="." line="6" column="0" />
         <mark key="^" line="6" column="6" />
       </file>
-      <file name="/Python Console" timestamp="1492958592386">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="2" column="16" />
-        <mark key="." line="2" column="16" />
-        <mark key="^" line="2" column="16" />
-      </file>
-      <file name="$USER_HOME$/git/make-demo/outline.txt" timestamp="1487171429694">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/git/spacewalk-utils/swutil-fix-channels" timestamp="1488233935085">
         <mark key="[" line="61" column="35" />
         <mark key="]" line="61" column="39" />
         <mark key="." line="61" column="39" />
         <mark key="^" line="61" column="39" />
-      </file>
-      <file name="/fragment.py" timestamp="1489180414270">
-        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/git/infra-image-build/bin/nimbul_api_client.py" timestamp="1488924720909">
         <mark key="[" line="8" column="8" />
@@ -46,23 +28,11 @@
         <mark key="^" line="8" column="8" />
         <mark key="." line="8" column="8" />
       </file>
-      <file name="$USER_HOME$/git/github.com/infra-image-build/bin/nimbul_add_image.py" timestamp="1488901549840">
-        <mark key="[" line="144" column="78" />
-        <mark key="]" line="145" column="7" />
-        <mark key="." line="145" column="11" />
-        <mark key="^" line="145" column="7" />
-      </file>
       <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/allow_ssh_password_auth.sh" timestamp="1492702258582">
         <mark key="[" line="9" column="20" />
         <mark key="]" line="9" column="20" />
         <mark key="^" line="2" column="38" />
         <mark key="." line="9" column="20" />
-      </file>
-      <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/set_vars.sh" timestamp="1491420645582">
-        <mark key="[" line="6" column="16" />
-        <mark key="]" line="6" column="76" />
-        <mark key="." line="6" column="76" />
-        <mark key="^" line="6" column="76" />
       </file>
       <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/yum_erase.sh" timestamp="1492705902459">
         <mark key="[" line="28" column="4" />
@@ -70,23 +40,11 @@
         <mark key="." line="30" column="12" />
         <mark key="^" line="30" column="12" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/querafi/Dockerfile" timestamp="1486418151621">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="19" column="31" />
-        <mark key="^" line="9" column="19" />
-        <mark key="." line="19" column="31" />
-      </file>
       <file name="$USER_HOME$/git/querafi/setup.cfg" timestamp="1487001213080">
         <mark key="[" line="1" column="9" />
         <mark key="]" line="1" column="12" />
         <mark key="^" line="1" column="12" />
         <mark key="." line="1" column="12" />
-      </file>
-      <file name="$USER_HOME$/git/infra-image-build/.gitignore" timestamp="1489436973850">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="10" column="6" />
-        <mark key="^" line="10" column="6" />
-        <mark key="." line="10" column="6" />
       </file>
       <file name="$USER_HOME$/git/github.com/powerline-shell/config.py" timestamp="1488551321557">
         <mark key="[" line="27" column="8" />
@@ -100,29 +58,18 @@
         <mark key="." line="151" column="28" />
         <mark key="^" line="151" column="28" />
       </file>
-      <file name="$USER_HOME$/git/infra-image-build/_deprecated/Makefile" timestamp="1492622972146">
-        <mark key="[" line="10" column="0" />
-        <mark key="]" line="11" column="75" />
-      </file>
       <file name="$USER_HOME$/git/nyt-puppet3-builder/scripts/sync_bootstrap_to_s3" timestamp="1491610578380">
         <mark key="[" line="1" column="0" />
         <mark key="]" line="1" column="0" />
         <mark key="." line="1" column="0" />
         <mark key="^" line="111" column="57" />
       </file>
-      <file name="$USER_HOME$/git/powerline-shell/segments/cwd2.py" timestamp="1492960435958">
-        <mark key="'" line="54" column="0" />
-        <mark key="[" line="91" column="0" />
-        <mark key="]" line="91" column="4" />
-        <mark key="." line="91" column="4" />
-        <mark key="^" line="54" column="44" />
-      </file>
-      <file name="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" timestamp="1492450732714">
-        <mark key="'" line="302" column="51" />
-        <mark key="[" line="2" column="12" />
-        <mark key="]" line="2" column="12" />
-        <mark key="." line="2" column="12" />
-        <mark key="^" line="1" column="0" />
+      <file name="$USER_HOME$/git/powerline-shell/segments/cwd2.py" timestamp="1493044906357">
+        <mark key="'" line="109" column="7" />
+        <mark key="[" line="101" column="38" />
+        <mark key="]" line="101" column="38" />
+        <mark key="." line="101" column="38" />
+        <mark key="^" line="101" column="38" />
       </file>
       <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/yum_install.sh" timestamp="1492727465215">
         <mark key="'" line="33" column="21" />
@@ -138,15 +85,6 @@
         <mark key="^" line="37" column="20" />
         <mark key="." line="37" column="20" />
       </file>
-      <file name="$USER_HOME$/PycharmProjects/querafi/setup.py" timestamp="1486662090340">
-        <mark key="[" line="46" column="20" />
-        <mark key="]" line="46" column="23" />
-        <mark key="." line="46" column="23" />
-        <mark key="^" line="46" column="23" />
-      </file>
-      <file name="/Dummy.txt" timestamp="1492705730581">
-        <mark key="[" line="0" column="0" />
-      </file>
       <file name="$USER_HOME$/git/infra-image-build/centos-7/Makefile" timestamp="1492702866557">
         <mark key="'" line="32" column="39" />
         <mark key="[" line="104" column="11" />
@@ -154,11 +92,16 @@
         <mark key="." line="104" column="19" />
         <mark key="^" line="104" column="19" />
       </file>
-      <file name="$USER_HOME$/git/powerline-shell/config.py" timestamp="1492959334651">
-        <mark key="[" line="27" column="8" />
-        <mark key="]" line="27" column="8" />
-        <mark key="^" line="34" column="8" />
-        <mark key="." line="27" column="8" />
+      <file name="$USER_HOME$/git/powerline-shell/segments/git2.py" timestamp="1493046197389">
+        <mark key="[" line="90" column="34" />
+        <mark key="]" line="90" column="34" />
+        <mark key="^" line="90" column="36" />
+        <mark key="." line="90" column="34" />
+      </file>
+      <file name="$USER_HOME$/git/powerline-shell/config.py" timestamp="1493045101067">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="11" />
+        <mark key="." line="16" column="0" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/MANIFEST.in" timestamp="1486662754271">
         <mark key="[" line="0" column="19" />
@@ -171,6 +114,101 @@
         <mark key="]" line="9" column="64" />
         <mark key="." line="9" column="64" />
         <mark key="^" line="9" column="64" />
+      </file>
+      <file name="$USER_HOME$/git/powerline-shell/segments/username.py" timestamp="1493045482353">
+        <mark key="[" line="4" column="27" />
+        <mark key="]" line="4" column="28" />
+        <mark key="." line="4" column="28" />
+        <mark key="^" line="8" column="23" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/puppetdata/hieradata/profiles/work.py" timestamp="1491429222390">
+        <mark key="'" line="18" column="26" />
+        <mark key="[" line="4" column="15" />
+        <mark key="]" line="4" column="24" />
+        <mark key="." line="4" column="24" />
+        <mark key="^" line="4" column="24" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/Makefile" timestamp="1492623137015">
+        <mark key="[" line="28" column="37" />
+        <mark key="]" line="28" column="36" />
+        <mark key="^" line="28" column="36" />
+        <mark key="." line="28" column="36" />
+      </file>
+      <file name="/Clipboard.txt" timestamp="1488901638586">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/nyt-puppet3-builder/nyt-puppet3-bootstrap.sh" timestamp="1491610524336">
+        <mark key="'" line="351" column="0" />
+        <mark key="[" line="268" column="0" />
+        <mark key="]" line="268" column="0" />
+        <mark key="." line="268" column="0" />
+        <mark key="^" line="25" column="14" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/vagrant_prep.sh" timestamp="1492723789437">
+        <mark key="a" line="0" column="13" />
+        <mark key="'" line="18" column="0" />
+        <mark key="[" line="10" column="11" />
+        <mark key="]" line="10" column="11" />
+        <mark key="." line="10" column="11" />
+        <mark key="^" line="10" column="11" />
+      </file>
+      <file name="$USER_HOME$/git/querafi/querafi/config/config.yaml" timestamp="1486671307083">
+        <mark key="[" line="5" column="0" />
+        <mark key="]" line="7" column="38" />
+        <mark key="^" line="2" column="78" />
+        <mark key="." line="7" column="38" />
+      </file>
+      <file name="/Python Console" timestamp="1492958592386">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="2" column="16" />
+        <mark key="." line="2" column="16" />
+        <mark key="^" line="2" column="16" />
+      </file>
+      <file name="$USER_HOME$/git/make-demo/outline.txt" timestamp="1487171429694">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/fragment.py" timestamp="1489180414270">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/git/github.com/infra-image-build/bin/nimbul_add_image.py" timestamp="1488901549840">
+        <mark key="[" line="144" column="78" />
+        <mark key="]" line="145" column="7" />
+        <mark key="." line="145" column="11" />
+        <mark key="^" line="145" column="7" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/set_vars.sh" timestamp="1491420645582">
+        <mark key="[" line="6" column="16" />
+        <mark key="]" line="6" column="76" />
+        <mark key="." line="6" column="76" />
+        <mark key="^" line="6" column="76" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/querafi/Dockerfile" timestamp="1486418151621">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="19" column="31" />
+        <mark key="^" line="9" column="19" />
+        <mark key="." line="19" column="31" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/.gitignore" timestamp="1489436973850">
+        <mark key="[" line="10" column="0" />
+        <mark key="]" line="10" column="6" />
+        <mark key="^" line="10" column="6" />
+        <mark key="." line="10" column="6" />
+      </file>
+      <file name="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" timestamp="1492450732714">
+        <mark key="'" line="302" column="51" />
+        <mark key="[" line="2" column="12" />
+        <mark key="]" line="2" column="12" />
+        <mark key="." line="2" column="12" />
+        <mark key="^" line="1" column="0" />
+      </file>
+      <file name="$USER_HOME$/PycharmProjects/querafi/setup.py" timestamp="1486662090340">
+        <mark key="[" line="46" column="20" />
+        <mark key="]" line="46" column="23" />
+        <mark key="." line="46" column="23" />
+        <mark key="^" line="46" column="23" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1492705730581">
+        <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/git/powerline-shell/segments/git.py" timestamp="1492959301722">
         <mark key="[" line="78" column="17" />
@@ -194,19 +232,6 @@
         <mark key="." line="20" column="31" />
         <mark key="^" line="20" column="31" />
       </file>
-      <file name="$USER_HOME$/git/github.com/puppetdata/hieradata/profiles/work.py" timestamp="1491429222390">
-        <mark key="'" line="18" column="26" />
-        <mark key="[" line="4" column="15" />
-        <mark key="]" line="4" column="24" />
-        <mark key="." line="4" column="24" />
-        <mark key="^" line="4" column="24" />
-      </file>
-      <file name="$USER_HOME$/git/infra-image-build/Makefile" timestamp="1492623137015">
-        <mark key="[" line="28" column="37" />
-        <mark key="]" line="28" column="36" />
-        <mark key="^" line="28" column="36" />
-        <mark key="." line="28" column="36" />
-      </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/tests/test_querafi_utils.py" timestamp="1486168962373">
         <mark key="[" line="41" column="0" />
         <mark key="]" line="41" column="0" />
@@ -220,28 +245,16 @@
         <mark key="." line="16" column="20" />
         <mark key="^" line="2" column="36" />
       </file>
-      <file name="/Clipboard.txt" timestamp="1488901638586">
-        <mark key="[" line="0" column="0" />
+      <file name="$USER_HOME$/git/powerline-shell/segments/hostname.py" timestamp="1493045520910">
+        <mark key="[" line="13" column="31" />
+        <mark key="]" line="13" column="31" />
+        <mark key="^" line="13" column="31" />
+        <mark key="." line="13" column="31" />
       </file>
       <file name="$USER_HOME$/.config/powerline/themes/shell/jpuellmann.json" timestamp="1492957787758">
         <mark key="[" line="6" column="0" />
         <mark key="]" line="6" column="0" />
         <mark key="." line="6" column="0" />
-      </file>
-      <file name="$USER_HOME$/git/nyt-puppet3-builder/nyt-puppet3-bootstrap.sh" timestamp="1491610524336">
-        <mark key="'" line="351" column="0" />
-        <mark key="[" line="268" column="0" />
-        <mark key="]" line="268" column="0" />
-        <mark key="." line="268" column="0" />
-        <mark key="^" line="25" column="14" />
-      </file>
-      <file name="$USER_HOME$/git/infra-image-build/centos-7/scripts/vagrant_prep.sh" timestamp="1492723789437">
-        <mark key="a" line="0" column="13" />
-        <mark key="'" line="18" column="0" />
-        <mark key="[" line="10" column="11" />
-        <mark key="]" line="10" column="11" />
-        <mark key="." line="10" column="11" />
-        <mark key="^" line="10" column="11" />
       </file>
       <file name="$USER_HOME$/PycharmProjects/querafi/.drone.yml" timestamp="1486417974525">
         <mark key="[" line="12" column="0" />
@@ -251,12 +264,6 @@
       </file>
     </filemarks>
     <jumps>
-      <jump line="351" column="36" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
-      <jump line="155" column="0" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
-      <jump line="273" column="9" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
-      <jump line="278" column="0" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
-      <jump line="8" column="35" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
-      <jump line="17" column="12" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
       <jump line="170" column="30" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
       <jump line="171" column="30" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
       <jump line="19" column="0" filename="$USER_HOME$/git/infra-image-build/ignore/nimbul bootstrap gcp.sh" />
@@ -350,56 +357,62 @@
       <jump line="30" column="4" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
       <jump line="89" column="25" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
       <jump line="0" column="0" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
-      <jump line="54" column="0" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="50" column="31" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="54" column="8" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="48" column="0" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="49" column="0" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="85" column="21" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="103" column="8" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
+      <jump line="107" column="7" filename="$USER_HOME$/git/powerline-shell/segments/cwd2.py" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">ICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCcvJXMvJyAlIChjd2QsKSwgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQo=</text>
+      <register name="&quot;" type="4">
+        <text encoding="base64">IA==</text>
       </register>
       <register name="-" type="4">
-        <text>cwd,</text>
+        <text encoding="base64">IA==</text>
       </register>
       <register name="/" type="4">
-        <text>plain</text>
+        <text>pwd</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">ICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCcvJXMvJyAlIChjd2QsKSwgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQo=</text>
+        <text encoding="base64">ICAgIHBvd2VybGluZS5hcHBlbmQoJyVzJyAlIGJyYW5jaCwgZmcsIGJnKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCcvJXMvJyAlIChjd2QsKSwgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQo=</text>
+        <text encoding="base64">ICAgIHBvd2VybGluZS5hcHBlbmQoJ1xuJywgZmcsIDE1KQo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi52Y3MuYnJhbmNoIiB9LAo=</text>
+        <text encoding="base64">ICAgICdnaXQyJywK</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi5lbnYudXNlciIgfSwKICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi5lbnYudmlydHVhbGVudiIgfSwKICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi52Y3MuYnJhbmNoIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwuY3dkIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwuam9ibnVtIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwubGFzdF9zdGF0dXMiIH0K</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi5uZXQuaG9zdG5hbWUiIH0sCg==</text>
+        <text encoding="base64">ICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCd+JywgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQogICAgICAgIHBvd2VybGluZS5hcHBlbmQoJ34nLCBDb2xvci5DV0RfRkcsIENvbG9yLlBBVEhfQkcpCiAgICAgICAgcG93ZXJsaW5lLmFwcGVuZCgnficsIENvbG9yLkNXRF9GRywgQ29sb3IuUEFUSF9CRykK</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJwcmlvcml0eSI6IDEwCg==</text>
+        <text encoding="base64">CgoKCgo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJwcmlvcml0eSI6IDIwCg==</text>
+        <text encoding="base64">CgpkZWYgYWRkX2N3ZDJfc2VnbWVudChwb3dlcmxpbmUpOgogICAgcHdkID0gb3MuZ2V0ZW52KCdQV0QnKQogICAgaG9tZWRpciA9IG9zLmdldGVudignSE9NRScpCiAgICBpZiBwd2QgPT0gaG9tZWRpcjoKICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCd+JywgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQogICAgZWxzZToKICAgICAgICAjIHBvd2VybGluZS5hcHBlbmQoJy8lcy8nICUgKGN3ZCwpLCBDb2xvci5DV0RfRkcsIENvbG9yLlBBVEhfQkcpCiAgICAgICAgcG93ZXJsaW5lLmFwcGVuZCgnficsIENvbG9yLkNXRF9GRywgQ29sb3IuUEFUSF9CRykKICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCd+JywgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQogICAgICAgIHBvd2VybGluZS5hcHBlbmQoJ34nLCBDb2xvci5DV0RfRkcsIENvbG9yLlBBVEhfQkcpCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJwcmlvcml0eSI6IDEwCg==</text>
+        <text encoding="base64">ICAgICAgICBwb3dlcmxpbmUuYXBwZW5kKCcvJXMvJyAlIChjd2QsKSwgQ29sb3IuQ1dEX0ZHLCBDb2xvci5QQVRIX0JHKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJwcmlvcml0eSI6IDQwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi52Y3MuYnJhbmNoIiB9LAo=</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAgICJwcmlvcml0eSI6IDUwCg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi5lbnYudXNlciIgfSwKICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi5lbnYudmlydHVhbGVudiIgfSwKICAgICAgICAgICAgeyAiZnVuY3Rpb24iOiAicG93ZXJsaW5lLnNlZ21lbnRzLmNvbW1vbi52Y3MuYnJhbmNoIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwuY3dkIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwuam9ibnVtIiB9LAogICAgICAgICAgICB7ICJmdW5jdGlvbiI6ICJwb3dlcmxpbmUuc2VnbWVudHMuc2hlbGwubGFzdF9zdGF0dXMiIH0K</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
       </register>
     </registers>
     <search>
-      <last-search>plain</last-search>
+      <last-search>pwd</last-search>
       <last-offset />
-      <last-pattern>plain</last-pattern>
+      <last-pattern>pwd</last-pattern>
       <last-replace>${ERB_ACCESS_KEY}</last-replace>
       <last-substitute encoding="base64">PCU9IEFDQ0VTU19LRVkgJT4=</last-substitute>
       <last-dir>1</last-dir>
@@ -407,8 +420,6 @@
     </search>
     <history>
       <history-search>
-        <entry encoding="base64">PA==</entry>
-        <entry>git</entry>
         <entry>puppetlabs</entry>
         <entry encoding="base64">OyA=</entry>
         <entry>echo</entry>
@@ -427,6 +438,8 @@
         <entry>append</entry>
         <entry>maybe</entry>
         <entry>plain</entry>
+        <entry>cw</entry>
+        <entry>pwd</entry>
       </history-search>
       <history-cmd>
         <entry>9</entry>

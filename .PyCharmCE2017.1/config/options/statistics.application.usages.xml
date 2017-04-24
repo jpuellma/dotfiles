@@ -13,7 +13,7 @@
       <entry feature="execute.tests.Debug" count="1" />
       <entry feature="execute.tests.Run" count="27" />
       <entry feature="git.branch.checkout.remote" count="2" />
-      <entry feature="ide.help.ideaInterface.editor" count="12" />
+      <entry feature="ide.help.ideaInterface.editor" count="13" />
       <entry feature="ide.help.reference.dialogs.diff.file" count="1" />
       <entry feature="ide.help.reference.dialogs.rundebug.PythonConfigurationType" count="1" />
       <entry feature="ide.help.reference.dialogs.rundebug.Tox" count="1" />
