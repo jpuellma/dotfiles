@@ -2,6 +2,8 @@
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" Vundle install: git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+"
 " To add/reload plugins, add them here, RESTART vim,
 " and run :PluginInstall inside vim.
 " :PluginList       - lists configured plugins

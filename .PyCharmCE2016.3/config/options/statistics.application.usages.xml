@@ -1,0 +1,44 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="CreateFile.CreateFileAction" count="3" />
+      <entry feature="StripeButton[Favorites].hidden" count="1" />
+      <entry feature="StripeButton[Version Control].shown" count="8" />
+      <entry feature="execute.BashConfigurationType.Run" count="5" />
+      <entry feature="execute.MAKEFILE_TARGET_RUN_CONFIGURATION.Run" count="56" />
+      <entry feature="execute.PythonConfigurationType.Debug" count="3" />
+      <entry feature="execute.PythonConfigurationType.Run" count="16" />
+      <entry feature="execute.Tox.Run" count="49" />
+      <entry feature="execute.tests.Debug" count="1" />
+      <entry feature="execute.tests.Run" count="27" />
+      <entry feature="git.branch.checkout.remote" count="2" />
+      <entry feature="ide.help.ideaInterface.editor" count="8" />
+      <entry feature="ide.help.reference.dialogs.diff.file" count="1" />
+      <entry feature="ide.help.reference.dialogs.rundebug.PythonConfigurationType" count="1" />
+      <entry feature="ide.help.reference.dialogs.rundebug.Tox" count="1" />
+      <entry feature="ide.help.top" count="1" />
+      <entry feature="ide.settings.Appearance" count="9" />
+      <entry feature="ide.settings.CodeGlance" count="4" />
+      <entry feature="ide.settings.Code_Style" count="1" />
+      <entry feature="ide.settings.Console_Colors" count="1" />
+      <entry feature="ide.settings.Console_Font" count="1" />
+      <entry feature="ide.settings.File_Colors" count="1" />
+      <entry feature="ide.settings.File_Types" count="1" />
+      <entry feature="ide.settings.Font" count="2" />
+      <entry feature="ide.settings.General" count="2" />
+      <entry feature="ide.settings.Git" count="1" />
+      <entry feature="ide.settings.Inspections" count="4" />
+      <entry feature="ide.settings.Keymap" count="5" />
+      <entry feature="ide.settings.Plugins" count="2" />
+      <entry feature="ide.settings.Project_Interpreter" count="5" />
+      <entry feature="ide.settings.Project_Structure" count="2" />
+      <entry feature="ide.settings.Python_Integrated_Tools" count="1" />
+      <entry feature="ide.settings.Vim_Emulation" count="2" />
+      <entry feature="ideaapp.started" count="32" />
+      <entry feature="python.console.local" count="5" />
+      <entry feature="terminal.linux" count="40" />
+      <entry feature="tips.of.the.day.next" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+    </counts>
+  </component>
+</application>

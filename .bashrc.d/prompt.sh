@@ -12,8 +12,9 @@ ps1_hostname="$([[ -e /bin/hostname ]] && hostname || echo $HOSTNAME.$([[ -e /bi
 
 function _update_ps1() {
     # export PS1="$(~/.powerline-shell.py $? 2> /dev/null)"
-    #export PS1="$(~/.powerline-shell.py --cwd-only --mode patched --colorize-hostname)"
-    export PS1="$(~/.powerline-shell.py --cwd-only --mode jpuellma --colorize-hostname)"
+    # export PS1="$(~/.powerline-shell.py --cwd-only --mode patched --colorize-hostname)"
+    # export PS1="$(~/.powerline-shell.py --cwd-only --mode jpuellma --colorize-hostname)"
+    export PS1="$(~/.powerline-shell.py --mode flat)"
 }
 
 

@@ -46,3 +46,8 @@ source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'
 
 # The next line enables shell command completion for gcloud.
 source '/home/jpuellmann/google-cloud-sdk/completion.bash.inc'
+
+# Set credentials vars
+if [ -f ~/credentials.sh ]; then
+    source /home/jpuellmann/credentials.sh
+fi
