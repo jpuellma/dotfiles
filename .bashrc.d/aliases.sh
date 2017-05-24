@@ -90,3 +90,5 @@ alias u='mount_fix.sh -u'
 alias tpr='tput reset'
 
 alias lrtail='ls -lrt | tail'
+
+alias gcal='sudo gcalcli'
