@@ -1,9 +1,0 @@
-<application>
-  <component name="FindSettings">
-    <option name="customScope" value="Project 'infra-image-build'" />
-    <option name="defaultScopeName" value="Project 'infra-image-build'" />
-    <option name="regularExpressions" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
-    <option name="SEARCH_SCOPE" value="Project 'infra-image-build'" />
-  </component>
-</application>
