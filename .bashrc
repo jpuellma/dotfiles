@@ -48,6 +48,6 @@ source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'
 source '/home/jpuellmann/google-cloud-sdk/completion.bash.inc'
 
 # Set credentials vars
-if [ -f ~/credentials.sh ]; then
-    source /home/jpuellmann/credentials.sh
+if [ -f ~/.credentials.sh ]; then
+    source /home/jpuellmann/.credentials.sh
 fi

@@ -12,6 +12,8 @@
   inactive_color_offset = 0.89
   scroll_tabbar = True
   suppress_multiple_term_dialog = True
+  title_font = Sans 6
+  title_hide_sizetext = True
   title_inactive_bg_color = "#565656"
   title_inactive_fg_color = "#ffffff"
   title_receive_bg_color = "#579baf"
@@ -76,6 +78,21 @@
     use_custom_command = True
     use_system_font = False
     visible_bell = True
+  [[2fa]]
+    alternate_screen_scroll = False
+    background_image = None
+    copy_on_selection = True
+    cursor_blink = False
+    custom_command = 2fa && sleep 5
+    font = Source Code Pro Bold 24
+    icon_bell = False
+    scroll_on_keystroke = False
+    scroll_on_output = False
+    scrollback_lines = 0
+    scrollbar_position = hidden
+    show_titlebar = False
+    update_records = False
+    use_system_font = False
   [[Atom]]
     background_image = None
     scrollback_infinite = True
