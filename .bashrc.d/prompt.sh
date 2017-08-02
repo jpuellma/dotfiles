@@ -39,7 +39,16 @@ fi
 
 case $HOSTNAME in
     'optiplex790')
-        export PS1="${tput_fg_yellow}\[\][\u@\h \W]\$ \[\] ${tput_reset}"
+        # export PS1="$\[\][\u@\h \W]\$ \[\] "
+        # export PS1="[\u@\h \W]\$ "
+        # export PS1="Ø[\u@\h \W]\$ "
+        # export PS1="🖥[\u@\h \W]\$ "
+        # export PS1="💻 ⇄ 🖳 \u@\h \W»\$ "
+        # export PS1="💻 ⇄ 💻 \u@\h \W»\$ "
+        export PS1="💻 ⇄ 💻 \u@\h \W \$ "
+        # export PS1="${tput_fg_yellow}💻 ⇄ 💻 ${tput_reset}\u@\h \W \$ "
+        # export PS1="${tput_fg_yellow}💻 ⇄ 💻 ${tput_fg_white}\u@\h \W \$ "
+        unset PROMPT_COMMAND
         ;;
     'James-Puellmann-8966')
         export PS1="${tput_fg_yellow}\[\][\! \W]\$ \[\] ${tput_reset}"
