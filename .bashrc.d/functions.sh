@@ -1,4 +1,7 @@
-function _setpath() {
+#!/usr/bin/env bash
+debugon=false
+my_name=functions.sh
+_setpath() {
     function _pathmunge() {
         case ":${PATH}:" in
             *:"$1":*)
@@ -29,48 +32,54 @@ function _setpath() {
     esac
 } # end function _setpath()
 
-function settitle() {
+
+settitle() {
     printf "\033k$1\033\\"
 }
 
-function _svnfind() {
+
+_svnfind() {
     find $* | grep -v "\.svn"
 }
 
-function _sup() {
+
+_sup() {
     for i in ~/svn/* ; do
         svn up $i
     done
 }
 
-function _set_dir_colors() {
+
+_set_dir_colors() {
     if [[ -f ~/.dircolors && -x /usr/bin/dircolors ]]; then
-	eval $(dircolors ~/.dircolors)
+    eval $(dircolors ~/.dircolors)
     fi
 }
 
-function _lrtail() {
+
+_lrtail() {
     /usr/bin/ls -lrt --color=always $* | tail
 }; alias lrtail='_lrtail' ; alias lrt='_lrtail'
 
 
-function pwgrep() {
+pwgrep() {
     gpg -d ~/.crypt/passwords.gpg | grep $*
 }
 
-s ()
-{
+
+s() {
   settitle $*
   ssh $*
   settitle ${USER}@${HOSTNAME}
 }
 
-vs ()
-{
+
+vs() {
   settitle $*
   vagrant ssh $*
   settitle ${USER}@${HOSTNAME}
 }
+
 
 codi() {
   vim $2 -c \
@@ -82,11 +91,57 @@ codi() {
     Codi ${1:-python}"
 }
 
-ts () {
-  foo="$*"
+
+ts() { foo="$*"
   tmux new-window -n "${foo}" ssh ${foo}
 }
 
-function timestamp() {
+
+timestamp() {
   date --iso-8601=seconds
+}
+
+
+reverse_array() {
+# Input: An array of strings, separated by whitespace.
+# Output: The same array, reversed.
+    array=($*)
+    for (( idx=${#array[@]}-1 ; idx>=0 ; idx-- )) ; do
+        echo -n "${array[idx]} "
+    done
+}
+
+
+format_call_stack() {
+# Formats a function call stack for printing in log messages.
+# Input: A whitespace separated list of function names, typically
+# "${FUNCNAME[*]}".
+# Output: The same list, reversed, with the log_* function names and redundant
+# main calls removed and spaces replaced with '->' indicators.
+    input="$*"
+    reversed=$(reverse_array ${input})
+    dedupe_mains=${reversed/main main /main }
+    no_logs=${dedupe_mains% log_*}
+    arrows=${no_logs// /→}
+    echo ${arrows}
+}
+
+
+log_debug() {
+    if [ _${debugon} == _true ]; then
+        stack=$(format_call_stack "${FUNCNAME[*]}")
+        printf 'Debug [[%s: %s]]: %s\n' "${my_name}" "${stack}" "$*" > /dev/stderr
+    fi
+}
+
+
+log_error() {
+    stack=$(format_call_stack "${FUNCNAME[*]}")
+    printf 'Error [[%s: %s]]: %s\n' "${my_name}" "${stack}" "$*" > /dev/stderr
+}
+
+
+log_info() {
+    stack=$(format_call_stack "${FUNCNAME[*]}")
+    printf '[[%s: %s]]: %s\n' "${my_name}" "${stack}" "$*"
 }
