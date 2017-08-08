@@ -94,3 +94,4 @@ if exists('$TMUX')
 endif
 hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#875f87
 set ls=2
+set nowrap
