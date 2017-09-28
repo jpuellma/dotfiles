@@ -117,13 +117,13 @@
     visible_bell = True
   [[mbp]]
     allow_bold = False
-    background_color = "#190011"
+    background_color = "#14000d"
     background_image = None
     copy_on_selection = True
     cursor_color = "#fffd00"
     custom_command = ssh -t james-puellmann-8966.nyhq.nytint.com exec /usr/local/bin/tmux new-session -A -s mbp
     font = Source Code Pro 9
-    foreground_color = "#ffb14f"
+    foreground_color = "#ffcd8e"
     scrollback_lines = 0
     scrollbar_position = hidden
     update_records = False
