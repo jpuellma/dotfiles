@@ -7,15 +7,19 @@ if [ -f /etc/bashrc ]; then
 fi
 
 export SVN_EDITOR=/usr/bin/vim
-export BROWSER="/usr/bin/google-chrome --user-data-dir=/home/jpuellmann/.config/man"
+export BROWSER="/usr/bin/google-chrome --user-data-dir=${HOME}/.config/man"
 export GOPATH="${HOME}/Go"
-export SSLKEYLOGFILE="/home/jpuellmann/.sslkeylogfile"
+export SSLKEYLOGFILE="${HOME}/.sslkeylogfile"
 export PROFILE_TYPE='blacktop'
 unset GNOME_KEYRING_CONTROL
 
 if [ -x ~/bin/nocapslock ]; then
     ${HOME}/bin/nocapslock
 fi
+
+for i in ${HOME}/bash-utilities/*.sh ; do
+    source $i
+done
 
 for i in ~/.bashrc.d/*.sh ; do
     source $i
@@ -41,13 +45,18 @@ fi
 
 _pathmunge $PATH:$HOME/.rvm/bin after
 
-# The next line updates PATH for the Google Cloud SDK.
-source '/home/jpuellmann/google-cloud-sdk/path.bash.inc'
+if [ -d ${HOME}/google-cloud-sdk ]; then
+	# The next line updates PATH for the Google Cloud SDK.
+	source "${HOME}/google-cloud-sdk/path.bash.inc" 2>/dev/null || echo oops
 
-# The next line enables shell command completion for gcloud.
-source '/home/jpuellmann/google-cloud-sdk/completion.bash.inc'
+	# The next line enables shell command completion for gcloud.
+	source "${HOME}/google-cloud-sdk/completion.bash.inc" 2>/dev/null
+fi
 
 # Set credentials vars
 if [ -f ~/.credentials.sh ]; then
-    source /home/jpuellmann/.credentials.sh
+    source ${HOME}/.credentials.sh
 fi
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

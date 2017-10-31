@@ -12,7 +12,7 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PATH
 umask 022
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-rvm system
 alias pat="puppet agent -t 2>&1 | tee ~/pat.out"
 alias patd="puppet agent -t --debug 2>&1 | tee ~/pat.out"
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*

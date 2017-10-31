@@ -1,0 +1,22 @@
+{
+  "segments": [
+    "virtual_env",
+    "hostname",
+    "ssh",
+    "cwd",
+    "git",
+    "hg",
+    "jobs",
+    "root"
+  ],
+  "mode": "flat",
+  "cwd": {
+      "mode": "plain"
+  },
+  "available_theme": "basic",
+  "available_theme": "default",
+  "available_theme": "solarized_dark",
+  "available_theme": "solarized_light",
+  "available_theme": "washed",
+  "theme": "default"
+}

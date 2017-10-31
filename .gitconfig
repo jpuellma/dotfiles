@@ -30,5 +30,6 @@
 	fontdiff = Source Code Pro,10,-1,5,50,0,0,0,0,0
 	tabwidth = 2
 	textwidth = 80
+	spellcheck = false
 [diff]
 	tool = xxdiff
