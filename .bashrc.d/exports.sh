@@ -4,8 +4,6 @@ export thumbsup="👍"
 
 export crypt='~/.crypt'
 
-export AWS_DEFAULT_REGION=us-east-1
-
 export VAGRANT_DEFAULT_PROVIDER=virtualbox
 
 export SPEC_OPTS="--format documentation"
