@@ -28,3 +28,7 @@ completion_bash_inc="${HOME}/google-cloud-sdk/completion.bash.inc"
 if [ -f "${completion_bash_inc}" ]; then
     source "${completion_bash_inc}"
  fi
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/james.puellmann/.sdkman"
+[[ -s "/Users/james.puellmann/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/james.puellmann/.sdkman/bin/sdkman-init.sh"

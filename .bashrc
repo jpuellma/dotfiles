@@ -63,4 +63,12 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 if is_macos; then
     export PATH=${PATH}:${HOME}/Library/Python/3.6/bin
+    #export VAGRANT_DEFAULT_PROVIDER='parallels'
+fi
+export VAGRANT_DEFAULT_PROVIDER='virtualbox'
+
+source /Users/james.puellmann/.sdkman/bin/sdkman-init.sh
+
+if [ -f ${HOME}/.cargo/env ]; then
+    source ${HOME}/.cargo/env
 fi
