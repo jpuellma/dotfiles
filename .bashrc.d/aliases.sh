@@ -1,10 +1,11 @@
+#!/usr/bin/env bash
 uname_a=$(uname -a)
 
 # Environment-specific:
 case $(uname -a) in
     Darwin*)
         alias ls='ls -G'
-        alias ll='ls -l'
+        alias ll='ls -lF'
         alias l='ls'
         alias grep='/usr/bin/grep --color=always'
         alias updatedb='/usr/libexec/locate.updatedb'
@@ -13,7 +14,7 @@ case $(uname -a) in
         ;;
     *Linux*)
         alias ls='/bin/ls --color=always'
-        alias ll='ls -l'
+        alias ll='ls -lF'
         alias l='ls'
         alias grep='/bin/grep --color=always'
         alias less='less -RFX'
@@ -92,3 +93,5 @@ alias tpr='tput reset'
 alias lrtail='ls -lrt | tail'
 
 alias gcal='sudo gcalcli'
+
+alias compose='docker-compose'
