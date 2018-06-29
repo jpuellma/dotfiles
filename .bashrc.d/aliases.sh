@@ -94,4 +94,4 @@ alias lrtail='ls -lrt | tail'
 
 alias gcal='sudo gcalcli'
 
-alias compose='docker-compose'
+alias comp='docker-compose'
