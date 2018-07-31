@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AnyConnectPreferences>
-<DefaultUser>james.puellmann</DefaultUser>
+<DefaultUser>puellmaj</DefaultUser>
 <DefaultSecondUser></DefaultSecondUser>
-<ClientCertificateThumbprint>8207E0F1F3F5EAA1005BA33D868D50C936E1089D</ClientCertificateThumbprint>
+<ClientCertificateThumbprint>AB875E460150B3E9825D94316A1587F9D5F16B4C</ClientCertificateThumbprint>
 <MultipleClientCertificateThumbprints></MultipleClientCertificateThumbprints>
 <ServerCertificateThumbprint></ServerCertificateThumbprint>
-<DefaultHostName>vpn.asynchrony.com</DefaultHostName>
+<DefaultHostName>#1 Primary WWT VPN</DefaultHostName>
 <DefaultHostAddress></DefaultHostAddress>
 <DefaultGroup></DefaultGroup>
 <ProxyHost></ProxyHost>
 <ProxyPort></ProxyPort>
-<SDITokenType>none</SDITokenType>
+<SDITokenType>hardware</SDITokenType>
 <ControllablePreferences></ControllablePreferences>
 </AnyConnectPreferences>

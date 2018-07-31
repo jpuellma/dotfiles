@@ -32,3 +32,6 @@ if [ -f "${completion_bash_inc}" ]; then
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/james.puellmann/.sdkman"
 [[ -s "/Users/james.puellmann/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/james.puellmann/.sdkman/bin/sdkman-init.sh"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+

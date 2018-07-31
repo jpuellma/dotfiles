@@ -32,6 +32,8 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'scrooloose/nerdtree'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'jacoborus/tender'
+Plugin 'jamessan/vim-gnupg'
+Plugin 'airblade/vim-gitgutter'
 call vundle#end()
 
 set nocompatible
@@ -44,7 +46,7 @@ set shiftwidth=4
 set smarttab
 set smartindent
 set modelines=10
-set guifont=Inconsolata\ Medium\ 8
+"set guifont=Inconsolata\ Medium\ 8
 "set guifont=Monospace\ 8
 set showmode
 "set showtabline=2
@@ -95,3 +97,9 @@ endif
 hi Visual       ctermfg=255 guifg=#eeeeee ctermbg=96  guibg=#875f87
 set ls=2
 set nowrap
+
+" vim-airline stuff
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+

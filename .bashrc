@@ -72,3 +72,5 @@ source /Users/james.puellmann/.sdkman/bin/sdkman-init.sh
 if [ -f ${HOME}/.cargo/env ]; then
     source ${HOME}/.cargo/env
 fi
+
+complete -C /usr/local/bin/aws_completer aws

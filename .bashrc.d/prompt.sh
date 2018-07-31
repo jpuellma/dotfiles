@@ -1,7 +1,8 @@
+#!/usr/bin/env bash
 # .bashrc
 # vim:filetype=sh
 
-source ~/.bashrc.d/colors.sh
+source ./colors.sh
 
 # User specific aliases and functions
 function _countslashes() {
@@ -9,12 +10,14 @@ function _countslashes() {
 }
 
 ps1_hostname="$([[ -e /bin/hostname ]] && hostname || echo $HOSTNAME.$([[ -e /bin/dnsdomainname ]] && /bin/dnsdomainname))"
+export ps1_hostname
 
 function _update_ps1() {
     if is_macos ; then
         PS1="$(powerline-shell $?)"
     else
-        export PS1="$(~/.powerline-shell.py --mode flat)"
+        PS1="$(~/.powerline-shell.py --mode flat)"
+        export PS1
     fi
 }
 
@@ -41,3 +44,21 @@ case $HOSTNAME in
         export PS1="\[\][\u@\h \W]\$ \[\] "
         ;;
 esac
+
+function _new_update_ps1() {
+    local git_part hostname_part path_part prompt_part prompt_string
+    git_part=""
+    hostname_part=""
+    path_part=""
+    prompt_part=""
+    prompt_string=""
+
+    git_part="git_part"
+    hostname_part="${tput_reset}$(hostname -s)${tput_reset}"
+    path_part="path_part"
+    prompt_part="prompt_part "
+
+    prompt_string="${hostname_part} ${path_part} ${git_part} ${prompt_part}"
+
+    echo "PS1=\"${prompt_string}\""
+}
