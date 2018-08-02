@@ -11,11 +11,12 @@ function _countslashes() {
 ps1_hostname="$([[ -e /bin/hostname ]] && hostname || echo $HOSTNAME.$([[ -e /bin/dnsdomainname ]] && /bin/dnsdomainname))"
 
 function _update_ps1() {
-    if is_macos ; then
-        PS1="$(powerline-shell $?)"
-    else
-        export PS1="$(~/.powerline-shell.py --mode flat)"
-    fi
+    true
+    # if is_macos ; then
+    #     PS1="$(powerline-shell $?)"
+    # else
+    #     export PS1="$(~/.powerline-shell.py --mode flat)"
+    # fi
 }
 
 if is_macos ; then

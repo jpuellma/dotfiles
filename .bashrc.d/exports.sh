@@ -10,4 +10,4 @@ export SPEC_OPTS="--format documentation"
 export rvm_path="${HOME}/.rvm"
 export PATH=${HOME}/anaconda3/bin:${PATH}
 
-export AWS_PROFILE=asynchrony-admin
+# export AWS_PROFILE=asynchrony-admin

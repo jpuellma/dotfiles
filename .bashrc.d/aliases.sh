@@ -95,3 +95,5 @@ alias lrtail='ls -lrt | tail'
 alias gcal='sudo gcalcli'
 
 alias comp='docker-compose'
+
+alias tf=terraform

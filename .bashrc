@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 # .bashrc
 umask 022
 
@@ -67,8 +68,10 @@ if is_macos; then
 fi
 export VAGRANT_DEFAULT_PROVIDER='virtualbox'
 
-source /Users/james.puellmann/.sdkman/bin/sdkman-init.sh
+# source /Users/james.puellmann/.sdkman/bin/sdkman-init.sh
 
 if [ -f ${HOME}/.cargo/env ]; then
     source ${HOME}/.cargo/env
 fi
+
+_pathmunge ${HOME}/Downloads/idea/bin after
