@@ -94,6 +94,11 @@ alias lrtail='ls -lrt | tail'
 
 alias gcal='sudo gcalcli'
 
+alias compose='docker-compose'
 alias comp='docker-compose'
 
+alias d-c='docker-compose'
+
 alias tf=terraform
+
+alias idea='open -a "IntelliJ IDEA CE.app"'
