@@ -5,7 +5,7 @@
 <ClientCertificateThumbprint>AB875E460150B3E9825D94316A1587F9D5F16B4C</ClientCertificateThumbprint>
 <MultipleClientCertificateThumbprints></MultipleClientCertificateThumbprints>
 <ServerCertificateThumbprint></ServerCertificateThumbprint>
-<DefaultHostName>#1 Primary WWT VPN</DefaultHostName>
+<DefaultHostName>vpn.wwt.com</DefaultHostName>
 <DefaultHostAddress></DefaultHostAddress>
 <DefaultGroup></DefaultGroup>
 <ProxyHost></ProxyHost>
