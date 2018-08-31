@@ -2,7 +2,7 @@
 # .bashrc
 # vim:filetype=sh
 
-source ./colors.sh
+# source ./colors.sh
 
 # User specific aliases and functions
 function _countslashes() {

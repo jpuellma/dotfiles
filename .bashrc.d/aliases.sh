@@ -102,3 +102,8 @@ alias d-c='docker-compose'
 alias tf=terraform
 
 alias idea='open -a "IntelliJ IDEA CE.app"'
+
+alias status='git status'
+alias gs='git status'
+
+alias gti='git'
