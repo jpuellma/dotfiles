@@ -11,6 +11,7 @@ case $(uname -a) in
         alias updatedb='/usr/libexec/locate.updatedb'
         alias less='less -RFX'
         alias cdsvn='cd ~/svn'
+        alias openssl1='/usr/local/Cellar/openssl@1.1/1.1.0h/bin/openssl'
         ;;
     *Linux*)
         alias ls='/bin/ls --color=always'
@@ -107,3 +108,5 @@ alias status='git status'
 alias gs='git status'
 
 alias gti='git'
+
+alias tree='tree -C'

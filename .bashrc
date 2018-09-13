@@ -76,3 +76,4 @@ fi
 
 _pathmunge ${HOME}/Downloads/idea/bin after
 complete -C /usr/local/bin/aws_completer aws
+source <(kubectl completion bash)
