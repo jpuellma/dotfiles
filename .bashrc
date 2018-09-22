@@ -74,6 +74,6 @@ if [ -f ${HOME}/.cargo/env ]; then
     source ${HOME}/.cargo/env
 fi
 
-_pathmunge ${HOME}/Downloads/idea/bin after
+_pathmunge /opt/JetBrains/bin after
 complete -C /usr/local/bin/aws_completer aws
 source <(kubectl completion bash)
