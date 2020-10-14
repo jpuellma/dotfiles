@@ -15,6 +15,7 @@ _setpath() {
                 else
                     PATH=$1:$PATH
                 fi
+                ;;
         esac
     }
 
