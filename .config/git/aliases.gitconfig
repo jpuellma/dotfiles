@@ -1,0 +1,23 @@
+; vim: filetype=gitconfig:
+[alias]
+  a = "add"
+  ad = "add ."
+  aa = "add --all"
+  all = "add --all"
+  amend = commit --amend
+  cd = "!pushd $(git rev-parse --show-toplevel)"
+  cm = "commit -m"
+  co = "checkout"
+  cola = "!nohup git cola >/dev/null 2>&1 & "
+  com = "commit"
+  d = "diff"
+  dv = "difftool -y"
+  l = "log --oneline"
+  last = "log -1 HEAD --stat"
+  poh = "push origin HEAD --tags"
+  root = "rev-parse --show-toplevel"
+  rv = "remote -v"
+  s = "status"
+  st = "status"
+  sub = "submodule"
+

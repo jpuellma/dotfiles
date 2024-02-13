@@ -1,0 +1,56 @@
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 1.0
+decorations = "none"
+
+[window.padding]
+x = 6
+y = 0
+
+[window.dimensions]
+columns = 180
+lines = 60
+
+[[keyboard.bindings]]
+chars = "\u001B[13;2u"
+key = "Return"
+mods = "Shift"
+
+[[keyboard.bindings]]
+chars = "\u001B[13;5u"
+key = "Return"
+mods = "Control"
+
+# Default colors
+[colors.primary]
+background = '#000000'
+foreground = '#d7d7d7'
+
+# Cursor colors
+[colors.cursor]
+text = '#0a0c10'
+cursor = '#f0f3f6'
+
+# Normal colors
+[colors.normal]
+black = '#7a828e'
+red = '#ff5555'
+green = '#26cd4d'
+yellow = '#f0b72f'
+blue = '#1e90ff'  # dodgerBlue
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+
+# Bright colors
+[colors.bright]
+black = '#9ea7b3'
+red = '#ff5555'
+green = '#4ae168'
+yellow = '#f7c843'
+blue = '#1e90ff'  # dodgerBlue
+magenta = '#cb9eff'
+cyan = '#39c5cf'
+white = '#d9dee3'
+

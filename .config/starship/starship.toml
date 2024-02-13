@@ -1,0 +1,109 @@
+format = """
+$cmd_duration\
+$git_branch$git_status\
+$nodejs\
+$rust\
+$golang\
+$php\
+$pulumi\
+$python\
+$aws\
+$username\
+@\
+${custom.hostname}\
+$directory\
+${custom.split_prompt}\
+$character"""
+
+add_newline = false
+command_timeout = 3000
+
+[directory]
+style = "blue"
+format = ":[$path]($style) "
+truncation_length = 2
+truncate_to_repo = false
+truncation_symbol = "…/"
+repo_root_style = "blue underline"
+fish_style_pwd_dir_length = 2
+
+[directory.substitutions]
+"Documents" = "󰈙 "
+"Downloads" = " "
+"Music" = " "
+"Pictures" = " "
+
+[git_branch]
+symbol = ""
+format = """[$symbol](bg:ffffff fg:#a6872b) [$branch](bg:ffffff fg:#a6872b) """
+
+[git_status]
+format = '''[($all_status$ahead_behind )](bold #FF87D7)'''
+
+[nodejs]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[rust]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[golang]
+symbol = ""
+style = "bg:#ffffff"
+format = '[[$symbol ($version)](fg:#769ff0 bg:#000000)]($style) '
+
+[php]
+symbol = ""
+style = "bg:#212736"
+format = '[[ $symbol ($version) ](fg:#769ff0 bg:#212736)]($style)'
+
+[time]
+disabled = false
+time_format = "%T"
+style = "bg:#1d2230"
+format = '[[  $time ](fg:#a0a9cb bg:#1d2230)]($style)'
+
+[username]
+style_user = "#1e90ff" # dodgerBlue
+show_always = true
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+style = 'green'
+
+[character]
+format = '[\$](blue) '
+
+[custom.split_prompt]
+when = ''' test -v split_prompt '''
+shell = ["/usr/local/bin/bash"]
+format = """
+
+"""
+
+[custom.hostname]
+command = ''' hn="    ${HOSTNAME}"; echo ${hn: -4} '''
+when = true
+format = "[$output](dimmed green)"
+
+[cmd_duration]
+disabled = false
+min_time = 10_000
+format = '''[🕰️  $duration](yellow)
+'''
+
+[pulumi]
+format = '[ ($version)\($stack\)]($style) '
+
+[aws]
+format = '[$symbol($profile )(\($region\) )]($style)'
+style = 'yellow'
+symbol = '🅰  '
+
+[python]
+symbol = ' '
+style = 'dimmed green'

@@ -1,0 +1,6 @@
+; vim: filetype=gitconfig:
+[user]
+	name = James Puellmann
+	email = james.puellmann@wwt.com
+[core]
+  editor = /usr/local/bin/nvim

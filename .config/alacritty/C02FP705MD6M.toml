@@ -1,0 +1,10 @@
+[shell]
+args = ['--login']
+program = "/usr/local/bin/bash"
+
+[font.normal]
+family = "UbuntuMono Nerd Font"
+
+[font]
+size = 14
+

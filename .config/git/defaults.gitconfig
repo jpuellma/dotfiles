@@ -1,0 +1,11 @@
+; vim: filetype=gitconfig:
+[pull]
+	rebase = false
+[core]
+	editor = nvim
+[push]
+  autoSetupRemote = true
+[diff]
+  tool = "nvimdiff"
+[init]
+	defaultBranch = main

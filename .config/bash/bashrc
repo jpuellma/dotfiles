@@ -1,0 +1,26 @@
+# shellcheck disable=SC1090
+bash_config_dir="${XDG_CONFIG_HOME:-${HOME}/.config}/bash"
+source_files=()
+source_files+=("_functions.sh") # This neds to go first; it defines things used later.
+source_files+=("aliases.sh")
+source_files+=("git-completion.sh")
+source_files+=("less_termcaps.sh")
+source_files+=("macos.sh")
+source_files+=("pathmunge.sh")
+source_files+=("prompt.sh")
+source_files+=("slugify.sh")
+source_files+=("sparks.sh")
+source_files+=("termcaps.sh")
+source_files+=("tputs.sh")
+
+for i in "${source_files[@]}"; do
+  f="${bash_config_dir}/${i}"
+  if [[ -f "${f}" ]]; then
+    source "${f}" || (echo "Error trying to source \"${f}\"!." >&2)
+  else
+    echo "Error in \"${0}\": Source file \"${f}\" not found." >&2
+  fi
+done
+
+pathmunge "${HOME}/.cargo/bin"
+pathmunge "${HOME}/bin" before
