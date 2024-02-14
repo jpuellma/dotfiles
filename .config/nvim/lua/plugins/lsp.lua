@@ -26,6 +26,7 @@ return {
           "puppet",
           "rust_analyzer",
           "terraformls",
+          "texlab",
           "tflint",
           "tsserver",
           "vimls",
@@ -115,6 +116,9 @@ return {
         capabilities = capabilities,
       })
       lspconfig.terraformls.setup({
+        capabilities = capabilities,
+      })
+      lspconfig.texlab.setup({
         capabilities = capabilities,
       })
       lspconfig.tflint.setup({
