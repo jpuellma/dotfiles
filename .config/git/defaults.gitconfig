@@ -1,4 +1,6 @@
 ; vim: filetype=gitconfig:
+[init]
+  defaultBranch = "main"
 [pull]
 	rebase = false
 [core]
@@ -7,5 +9,4 @@
   autoSetupRemote = true
 [diff]
   tool = "nvimdiff"
-[init]
-	defaultBranch = main
+
