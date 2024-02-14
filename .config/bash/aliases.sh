@@ -1,6 +1,7 @@
 alias ..='cd ..'
 alias cdg='cd $(git rev-parse --show-toplevel)'
 alias g=git
+alias ga='git add'
 alias ga.='git add .'
 alias gcd='cd $(git rev-parse --show-toplevel)'
 alias gcm='git commit -m'
