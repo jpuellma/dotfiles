@@ -25,6 +25,7 @@ alias lrtail='ls -lrt | tail'
 alias ls='ls --color'
 alias t=terraform
 alias tf=terraform
+alias tma='tmux a || tmux'
 alias tree='tree -C'
 alias vi='nvim'
 alias vim=nvim
