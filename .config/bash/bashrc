@@ -24,3 +24,5 @@ done
 
 pathmunge "${HOME}/.cargo/bin"
 pathmunge "${HOME}/bin" before
+
+complete -C /usr/bin/aws_completer aws
