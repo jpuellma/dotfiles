@@ -112,3 +112,5 @@ style = 'dimmed green'
 [kubernetes]
 disabled = false
 detect_files = ['.k8s', 'kubeconfig']
+format = '''[$symbol$context( \($namespace\))]($style)
+'''
