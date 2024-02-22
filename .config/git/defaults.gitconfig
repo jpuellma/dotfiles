@@ -9,4 +9,6 @@
   autoSetupRemote = true
 [diff]
   tool = "nvimdiff"
+[rerere]
+  enabled = true
 

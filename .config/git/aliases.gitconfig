@@ -5,6 +5,7 @@
   aa = "add --all"
   all = "add --all"
   amend = commit --amend
+  bblame = "blame -w -C -C -C"
   cd = "!pushd $(git rev-parse --show-toplevel)"
   cm = "commit -m"
   co = "checkout"
