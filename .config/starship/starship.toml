@@ -1,5 +1,6 @@
 format = """
 $cmd_duration\
+$kubernetes\
 $git_branch$git_status\
 $nodejs\
 $rust\
@@ -107,3 +108,7 @@ symbol = '🅰  '
 [python]
 symbol = ' '
 style = 'dimmed green'
+
+[kubernetes]
+disabled = false
+detect_files = ['.k8s', 'kubeconfig']
