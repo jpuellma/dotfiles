@@ -81,7 +81,7 @@ format = '[\$](blue) '
 
 [custom.split_prompt]
 when = ''' test -v split_prompt '''
-shell = ["/usr/local/bin/bash"]
+shell = ["/usr/bin/bash"]
 format = """
 
 """
