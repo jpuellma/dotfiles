@@ -1,0 +1,13 @@
+[window]
+opacity = 0.9
+
+[font.normal]
+family = "SauceCodePro Nerd Font Mono"
+
+[font]
+size = 6
+
+[window.dimensions]
+columns = 140
+lines = 60
+
