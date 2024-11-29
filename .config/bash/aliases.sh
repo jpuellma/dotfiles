@@ -28,5 +28,5 @@ alias t=terraform
 alias tf=terraform
 alias tm='tmux a || tmux'
 alias tree='tree -C'
-alias vi='nvim'
-alias vim=nvim
+# alias vi='nvim'
+# alias vim=nvim
