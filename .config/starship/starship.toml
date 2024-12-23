@@ -9,6 +9,7 @@ $php\
 $pulumi\
 $python\
 $aws\
+$azure\
 $username\
 @\
 ${custom.hostname}\
@@ -114,3 +115,12 @@ disabled = false
 detect_files = ['.k8s', 'kubeconfig']
 format = '''[$symbol$context( \($namespace\))]($style)
 '''
+
+[azure]
+disabled = false
+format = 'on [$symbol($subscription)]($style) '
+symbol = '󰠅 '
+style = 'blue bold'
+
+[azure.subscription_aliases]
+"Azure subscription 1" = "home"

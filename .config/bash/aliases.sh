@@ -28,5 +28,8 @@ alias t=terraform
 alias tf=terraform
 alias tm='tmux a || tmux'
 alias tree='tree -C'
+<<<<<<< Updated upstream
 # alias vi='nvim'
 # alias vim=nvim
+=======
+>>>>>>> Stashed changes
