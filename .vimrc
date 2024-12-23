@@ -1,73 +1,79 @@
-source /etc/vimrc
-set background=dark
-set visualbell
-set noerrorbells
-
+" &shell
+" let &shell='/bin/bash'
 set nocompatible
+let mapleader=" "
+set mouse=a
+set nowrap
+ 
 set path+=**
 syntax enable
 filetype plugin on
 set wildmenu
-
+ 
 " netrw stuff
-let g:netrw_banner=0  " Disable annoying netrw banner
+let g:netrw_banner=1  " Disable annoying netrw banner
 " let g:netrw_browse_split=4  " open in prior window
 " let g:netrw_altv=1  " Open splits to the right.
 " let g:netrw_list_hide=netrw_gitignore:Hide()
 " let g:netrw_list_hide.=',\(^\|\s\s\)\zs\.\S\+'
-
+ 
 " numbers
 set nu
 set relativenumber
-
-" Columns and cursorline
+ 
+" Colors, columns cursorline, etc
+"
+set t_Co=16
+set t_Co=256
+set termguicolors
+ 
 set colorcolumn=80
-highlight ColorColumn ctermbg=darkGray
+highlight ColorColumn ctermbg=white
 set cursorline
 hi CursorLine cterm=NONE ctermbg=black
-
+ 
+" Min. # lines to keep on screen for 'zt'/'zb'.
+set scrolloff=3
+ 
+set modelines=10
+ 
+set updatetime=200
+ 
 " searching
 set nohlsearch
 set incsearch
-
+ 
 " tabs and indents
-set ts=2
-set sw=2
-set et
-set ai
-
-" Comment with gc
-source ~/.config/vim/commentary.vim
-
-" Highligh trainiling whitespace.
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab
+set smartindent
+ 
+" Use 4-space tabs in Python.
+autocmd BufNewFile,BufRead *.py set ts=4 sw=4 sts=4
+ 
+" Highlight trailing whitespace.
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
-
-" misc.
-let mapleader=" "
-set mouse=a
-
-" Inset Title Header.
-nnoremap <leader>H ggO<esc>!! /Users/zkticrm/Notes/bin/insert-header.sh <c-r>%<cr>jo
-
-" Strikethrough the line.
-nnoremap <leader>~ I~~<esc>A~~<esc>:s/\~\~- /- \~\~<cr><esc>
-
-" Inset Diary Header.
-" nnoremap <leader>H !! /Users/zkticrm/Notes/bin/insert-diary-header.sh <c-r>%<cr>jA
-
-" Insert datestamp/timestamp
-nnoremap <leader>D o<esc>!! /Users/zkticrm/bin/datestamp <cr><esc>I# <esc>kJ$
-" nnoremap <leader>T o<esc>!! /Users/zkticrm/bin/timestamp <cr><esc>I# <esc>kJ$
-nnoremap <leader>T <esc>!! /Users/zkticrm/bin/shorttimestamp.sh <cr><esc>o
-
-" Replace blanks with dashes.
-vnoremap <leader>- :s/\%V\s/-/g<cr><esc>
-
-" Link to markdown.
-vnoremap <leader>X :s/.*/[&](&.md)<cr><esc>
-
-nnoremap <leader>P @p
-
-" There Exists
-inoremap <C-e> ∃
+ 
+" Undofile
+set undodir="$HOME/.vim/undodir"
+set undofile
+ 
+set laststatus=2
+set showmode
+set wildmode=list:longest
+ 
+" Spellchecking
+set spelllang=en_us
+set nospell
+autocmd BufNewFile,BufRead *.txt,*.md set spell
+ 
+let g:vim_config_dir = expand('~/.config/vim/')
+if isdirectory(g:vim_config_dir)
+  for vim_file in glob(g:vim_config_dir . '*.vim', 0, 1)
+    execute "source " . vim_file
+  endfor
+endif
+ 
