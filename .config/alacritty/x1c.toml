@@ -1,6 +1,10 @@
 # [window]
 # opacity = 0.93
 
+[shell]
+args = ['--login']
+program = "/usr/bin/zsh"
+
 [font.normal]
 family = "SauceCodePro Nerd Font Mono"
 
