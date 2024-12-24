@@ -1,0 +1,75 @@
+{
+    "markdown-pdf.executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.autoSave": "afterDelay",
+    "workbench.startupEditor": "none",
+    "editor.lineNumbers": "relative",
+    "editor.rulers": [
+        80, 90, 120
+    ],
+    "editor.tabSize": 2,
+    "explorer.confirmDelete": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "github.gitProtocol": "ssh",
+    "editor.minimap.enabled": false,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "editor.accessibilitySupport": "off",
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff",
+        "activityBar.background": "#00695b",
+        "titleBar.activeBackground": "#00695b"
+    },
+    "search.useIgnoreFiles": false,
+    "files.useIgnoreFiles": false,
+    "vim.handleKeys": {
+
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "vim.shell": "/bin/bash",
+    "vim.showMarksInGutter": true,
+    "vim.statusBarColorControl": true,
+    "vim.useSystemClipboard": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "/Users/zkticrm/.vimrc",
+    "vim.leader": " ",
+    "notebook.showFoldingControls": "always",
+    "editor.foldingStrategy": "indentation",
+    "editor.showFoldingControls": "always",
+    "files.insertFinalNewline": true,
+    "notebook.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "scm.diffDecorationsIgnoreTrimWhitespace": "true",
+    "redhat.telemetry.enabled": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[terraform]": {
+        "editor.defaultFormatter": "hashicorp.terraform"
+    },
+    "terraform.languageServer.terraform.path": "/Users/zkticrm/bin/terraform",
+    "editor.comments.ignoreEmptyLines": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terraform.codelens.referenceCount": true,
+    "terraform.experimentalFeatures.prefillRequiredFields": true,
+    "terraform.experimentalFeatures.validateOnSave": true,
+    "git.openRepositoryInParentFolders": "never",
+    "editor.wordWrap": "off",
+    "[markdown]": {
+        "editor.wordWrap": "off"
+    },
+    "workbench.editor.enablePreview": false,
+    "files.eol": "\n",
+    "terminal.integrated.scrollback": 100000,
+    "terminal.integrated.persistentSessionScrollback": 100000,
+    "hediet.vscode-drawio.theme": "Kennedy",
+    "editor.largeFileOptimizations": false,
+    "files.associations": {
+        "*.jinja": "jinjaform"
+    }
+
+}

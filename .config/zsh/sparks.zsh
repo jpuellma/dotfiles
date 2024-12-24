@@ -1,0 +1,18 @@
+export spark_1='▁'
+export spark_2='▂'
+export spark_3='▃'
+export spark_4='▄'
+export spark_5='▅'
+export spark_6='▆'
+export spark_7='▇'
+export spark_8='█'
+ 
+export spark_percent_00='▁'
+export spark_percent_12='▂'
+export spark_percent_25='▃'
+export spark_percent_37='▄'
+export spark_percent_50='▅'
+export spark_percent_62='▆'
+export spark_percent_75='▇'
+export spark_percent_87='█'
+ 
