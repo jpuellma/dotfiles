@@ -134,6 +134,7 @@ done
  
 pathmunge ~/bin
 pathmunge ~/Notes/bin
+pathmunge /opt/homebrew/Cellar/bash/latest/bin
  
 # git tab completion:
 autoload -Uz compinit && compinit
